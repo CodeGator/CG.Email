@@ -117,6 +117,6 @@
   "index.html": {
     "href": "index.html",
     "title": "Introduction",
-    "keywords": "Introduction CG.Email.dll contains general purpose email extensions."
+    "keywords": "Introduction CG.Email.dll contains an email service used by other CodeGator packages."
   }
 }
