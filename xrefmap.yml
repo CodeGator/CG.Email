@@ -1,0 +1,605 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CG.Email
+  name: CG.Email
+  href: api/CG.Email.html
+  commentId: N:CG.Email
+  fullName: CG.Email
+  nameWithType: CG.Email
+- uid: CG.Email.Builders
+  name: CG.Email.Builders
+  href: api/CG.Email.Builders.html
+  commentId: N:CG.Email.Builders
+  fullName: CG.Email.Builders
+  nameWithType: CG.Email.Builders
+- uid: CG.Email.Builders.EmailStrategyBuilderExtensions
+  name: EmailStrategyBuilderExtensions
+  href: api/CG.Email.Builders.EmailStrategyBuilderExtensions.html
+  commentId: T:CG.Email.Builders.EmailStrategyBuilderExtensions
+  fullName: CG.Email.Builders.EmailStrategyBuilderExtensions
+  nameWithType: EmailStrategyBuilderExtensions
+- uid: CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy(CG.Email.Builders.IEmailStrategyBuilder,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddSmtpStrategy(IEmailStrategyBuilder, IConfiguration)
+  href: api/CG.Email.Builders.EmailStrategyBuilderExtensions.html#CG_Email_Builders_EmailStrategyBuilderExtensions_AddSmtpStrategy_CG_Email_Builders_IEmailStrategyBuilder_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy(CG.Email.Builders.IEmailStrategyBuilder,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy(CG.Email.Builders.IEmailStrategyBuilder, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: EmailStrategyBuilderExtensions.AddSmtpStrategy(IEmailStrategyBuilder, IConfiguration)
+- uid: CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy(CG.Email.Builders.IEmailStrategyBuilder,System.Action{CG.Email.Strategies.SmtpEmailStrategyOptions})
+  name: AddSmtpStrategy(IEmailStrategyBuilder, Action<SmtpEmailStrategyOptions>)
+  href: api/CG.Email.Builders.EmailStrategyBuilderExtensions.html#CG_Email_Builders_EmailStrategyBuilderExtensions_AddSmtpStrategy_CG_Email_Builders_IEmailStrategyBuilder_System_Action_CG_Email_Strategies_SmtpEmailStrategyOptions__
+  commentId: M:CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy(CG.Email.Builders.IEmailStrategyBuilder,System.Action{CG.Email.Strategies.SmtpEmailStrategyOptions})
+  name.vb: AddSmtpStrategy(IEmailStrategyBuilder, Action(Of SmtpEmailStrategyOptions))
+  fullName: CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy(CG.Email.Builders.IEmailStrategyBuilder, System.Action<CG.Email.Strategies.SmtpEmailStrategyOptions>)
+  fullName.vb: CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy(CG.Email.Builders.IEmailStrategyBuilder, System.Action(Of CG.Email.Strategies.SmtpEmailStrategyOptions))
+  nameWithType: EmailStrategyBuilderExtensions.AddSmtpStrategy(IEmailStrategyBuilder, Action<SmtpEmailStrategyOptions>)
+  nameWithType.vb: EmailStrategyBuilderExtensions.AddSmtpStrategy(IEmailStrategyBuilder, Action(Of SmtpEmailStrategyOptions))
+- uid: CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy*
+  name: AddSmtpStrategy
+  href: api/CG.Email.Builders.EmailStrategyBuilderExtensions.html#CG_Email_Builders_EmailStrategyBuilderExtensions_AddSmtpStrategy_
+  commentId: Overload:CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy
+  isSpec: "True"
+  fullName: CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy
+  nameWithType: EmailStrategyBuilderExtensions.AddSmtpStrategy
+- uid: CG.Email.Builders.IEmailStrategyBuilder
+  name: IEmailStrategyBuilder
+  href: api/CG.Email.Builders.IEmailStrategyBuilder.html
+  commentId: T:CG.Email.Builders.IEmailStrategyBuilder
+  fullName: CG.Email.Builders.IEmailStrategyBuilder
+  nameWithType: IEmailStrategyBuilder
+- uid: CG.Email.Builders.IEmailStrategyBuilder.Services
+  name: Services
+  href: api/CG.Email.Builders.IEmailStrategyBuilder.html#CG_Email_Builders_IEmailStrategyBuilder_Services
+  commentId: P:CG.Email.Builders.IEmailStrategyBuilder.Services
+  fullName: CG.Email.Builders.IEmailStrategyBuilder.Services
+  nameWithType: IEmailStrategyBuilder.Services
+- uid: CG.Email.Builders.IEmailStrategyBuilder.Services*
+  name: Services
+  href: api/CG.Email.Builders.IEmailStrategyBuilder.html#CG_Email_Builders_IEmailStrategyBuilder_Services_
+  commentId: Overload:CG.Email.Builders.IEmailStrategyBuilder.Services
+  isSpec: "True"
+  fullName: CG.Email.Builders.IEmailStrategyBuilder.Services
+  nameWithType: IEmailStrategyBuilder.Services
+- uid: CG.Email.EmailException
+  name: EmailException
+  href: api/CG.Email.EmailException.html
+  commentId: T:CG.Email.EmailException
+  fullName: CG.Email.EmailException
+  nameWithType: EmailException
+- uid: CG.Email.EmailException.#ctor
+  name: EmailException()
+  href: api/CG.Email.EmailException.html#CG_Email_EmailException__ctor
+  commentId: M:CG.Email.EmailException.#ctor
+  fullName: CG.Email.EmailException.EmailException()
+  nameWithType: EmailException.EmailException()
+- uid: CG.Email.EmailException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: EmailException(SerializationInfo, StreamingContext)
+  href: api/CG.Email.EmailException.html#CG_Email_EmailException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:CG.Email.EmailException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: CG.Email.EmailException.EmailException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: EmailException.EmailException(SerializationInfo, StreamingContext)
+- uid: CG.Email.EmailException.#ctor(System.String)
+  name: EmailException(String)
+  href: api/CG.Email.EmailException.html#CG_Email_EmailException__ctor_System_String_
+  commentId: M:CG.Email.EmailException.#ctor(System.String)
+  fullName: CG.Email.EmailException.EmailException(System.String)
+  nameWithType: EmailException.EmailException(String)
+- uid: CG.Email.EmailException.#ctor(System.String,System.Exception)
+  name: EmailException(String, Exception)
+  href: api/CG.Email.EmailException.html#CG_Email_EmailException__ctor_System_String_System_Exception_
+  commentId: M:CG.Email.EmailException.#ctor(System.String,System.Exception)
+  fullName: CG.Email.EmailException.EmailException(System.String, System.Exception)
+  nameWithType: EmailException.EmailException(String, Exception)
+- uid: CG.Email.EmailException.#ctor*
+  name: EmailException
+  href: api/CG.Email.EmailException.html#CG_Email_EmailException__ctor_
+  commentId: Overload:CG.Email.EmailException.#ctor
+  isSpec: "True"
+  fullName: CG.Email.EmailException.EmailException
+  nameWithType: EmailException.EmailException
+- uid: CG.Email.EmailResult
+  name: EmailResult
+  href: api/CG.Email.EmailResult.html
+  commentId: T:CG.Email.EmailResult
+  fullName: CG.Email.EmailResult
+  nameWithType: EmailResult
+- uid: CG.Email.EmailResult.EmailId
+  name: EmailId
+  href: api/CG.Email.EmailResult.html#CG_Email_EmailResult_EmailId
+  commentId: P:CG.Email.EmailResult.EmailId
+  fullName: CG.Email.EmailResult.EmailId
+  nameWithType: EmailResult.EmailId
+- uid: CG.Email.EmailResult.EmailId*
+  name: EmailId
+  href: api/CG.Email.EmailResult.html#CG_Email_EmailResult_EmailId_
+  commentId: Overload:CG.Email.EmailResult.EmailId
+  isSpec: "True"
+  fullName: CG.Email.EmailResult.EmailId
+  nameWithType: EmailResult.EmailId
+- uid: CG.Email.EmailService
+  name: EmailService
+  href: api/CG.Email.EmailService.html
+  commentId: T:CG.Email.EmailService
+  fullName: CG.Email.EmailService
+  nameWithType: EmailService
+- uid: CG.Email.EmailService.#ctor(CG.Email.Strategies.IEmailStrategy)
+  name: EmailService(IEmailStrategy)
+  href: api/CG.Email.EmailService.html#CG_Email_EmailService__ctor_CG_Email_Strategies_IEmailStrategy_
+  commentId: M:CG.Email.EmailService.#ctor(CG.Email.Strategies.IEmailStrategy)
+  fullName: CG.Email.EmailService.EmailService(CG.Email.Strategies.IEmailStrategy)
+  nameWithType: EmailService.EmailService(IEmailStrategy)
+- uid: CG.Email.EmailService.#ctor*
+  name: EmailService
+  href: api/CG.Email.EmailService.html#CG_Email_EmailService__ctor_
+  commentId: Overload:CG.Email.EmailService.#ctor
+  isSpec: "True"
+  fullName: CG.Email.EmailService.EmailService
+  nameWithType: EmailService.EmailService
+- uid: CG.Email.EmailService.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/CG.Email.EmailService.html#CG_Email_EmailService_Dispose_System_Boolean_
+  commentId: M:CG.Email.EmailService.Dispose(System.Boolean)
+  fullName: CG.Email.EmailService.Dispose(System.Boolean)
+  nameWithType: EmailService.Dispose(Boolean)
+- uid: CG.Email.EmailService.Dispose*
+  name: Dispose
+  href: api/CG.Email.EmailService.html#CG_Email_EmailService_Dispose_
+  commentId: Overload:CG.Email.EmailService.Dispose
+  isSpec: "True"
+  fullName: CG.Email.EmailService.Dispose
+  nameWithType: EmailService.Dispose
+- uid: CG.Email.EmailService.SendAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  name: SendAsync(String, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, String, String, Boolean, CancellationToken)
+  href: api/CG.Email.EmailService.html#CG_Email_EmailService_SendAsync_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  commentId: M:CG.Email.EmailService.SendAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  name.vb: SendAsync(String, IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), String, String, Boolean, CancellationToken)
+  fullName: CG.Email.EmailService.SendAsync(System.String, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  fullName.vb: CG.Email.EmailService.SendAsync(System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  nameWithType: EmailService.SendAsync(String, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, String, String, Boolean, CancellationToken)
+  nameWithType.vb: EmailService.SendAsync(String, IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), String, String, Boolean, CancellationToken)
+- uid: CG.Email.EmailService.SendAsync*
+  name: SendAsync
+  href: api/CG.Email.EmailService.html#CG_Email_EmailService_SendAsync_
+  commentId: Overload:CG.Email.EmailService.SendAsync
+  isSpec: "True"
+  fullName: CG.Email.EmailService.SendAsync
+  nameWithType: EmailService.SendAsync
+- uid: CG.Email.EmailServiceExtensions
+  name: EmailServiceExtensions
+  href: api/CG.Email.EmailServiceExtensions.html
+  commentId: T:CG.Email.EmailServiceExtensions
+  fullName: CG.Email.EmailServiceExtensions
+  nameWithType: EmailServiceExtensions
+- uid: CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean)
+  name: Send(IEmailService, String, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, String, String, Boolean)
+  href: api/CG.Email.EmailServiceExtensions.html#CG_Email_EmailServiceExtensions_Send_CG_Email_IEmailService_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_String_System_String_System_Boolean_
+  commentId: M:CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean)
+  name.vb: Send(IEmailService, String, IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), String, String, Boolean)
+  fullName: CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService, System.String, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.String, System.String, System.Boolean)
+  fullName.vb: CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService, System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.String, System.String, System.Boolean)
+  nameWithType: EmailServiceExtensions.Send(IEmailService, String, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, String, String, Boolean)
+  nameWithType.vb: EmailServiceExtensions.Send(IEmailService, String, IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), String, String, Boolean)
+- uid: CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.Boolean)
+  name: Send(IEmailService, String, String, String, String, Boolean)
+  href: api/CG.Email.EmailServiceExtensions.html#CG_Email_EmailServiceExtensions_Send_CG_Email_IEmailService_System_String_System_String_System_String_System_String_System_Boolean_
+  commentId: M:CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.Boolean)
+  fullName: CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService, System.String, System.String, System.String, System.String, System.Boolean)
+  nameWithType: EmailServiceExtensions.Send(IEmailService, String, String, String, String, Boolean)
+- uid: CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.String,System.Boolean)
+  name: Send(IEmailService, String, String, String, String, String, Boolean)
+  href: api/CG.Email.EmailServiceExtensions.html#CG_Email_EmailServiceExtensions_Send_CG_Email_IEmailService_System_String_System_String_System_String_System_String_System_String_System_Boolean_
+  commentId: M:CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.String,System.Boolean)
+  fullName: CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService, System.String, System.String, System.String, System.String, System.String, System.Boolean)
+  nameWithType: EmailServiceExtensions.Send(IEmailService, String, String, String, String, String, Boolean)
+- uid: CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean)
+  name: Send(IEmailService, String, String, String, String, String, String, Boolean)
+  href: api/CG.Email.EmailServiceExtensions.html#CG_Email_EmailServiceExtensions_Send_CG_Email_IEmailService_System_String_System_String_System_String_System_String_System_String_System_String_System_Boolean_
+  commentId: M:CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean)
+  fullName: CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService, System.String, System.String, System.String, System.String, System.String, System.String, System.Boolean)
+  nameWithType: EmailServiceExtensions.Send(IEmailService, String, String, String, String, String, String, Boolean)
+- uid: CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean)
+  name: Send(IEmailService, String, String, String, String, String, String, String, Boolean)
+  href: api/CG.Email.EmailServiceExtensions.html#CG_Email_EmailServiceExtensions_Send_CG_Email_IEmailService_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_Boolean_
+  commentId: M:CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean)
+  fullName: CG.Email.EmailServiceExtensions.Send(CG.Email.IEmailService, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.Boolean)
+  nameWithType: EmailServiceExtensions.Send(IEmailService, String, String, String, String, String, String, String, Boolean)
+- uid: CG.Email.EmailServiceExtensions.Send*
+  name: Send
+  href: api/CG.Email.EmailServiceExtensions.html#CG_Email_EmailServiceExtensions_Send_
+  commentId: Overload:CG.Email.EmailServiceExtensions.Send
+  isSpec: "True"
+  fullName: CG.Email.EmailServiceExtensions.Send
+  nameWithType: EmailServiceExtensions.Send
+- uid: CG.Email.EmailServiceExtensions.SendAsync(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  name: SendAsync(IEmailService, String, String, String, String, Boolean, CancellationToken)
+  href: api/CG.Email.EmailServiceExtensions.html#CG_Email_EmailServiceExtensions_SendAsync_CG_Email_IEmailService_System_String_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  commentId: M:CG.Email.EmailServiceExtensions.SendAsync(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  fullName: CG.Email.EmailServiceExtensions.SendAsync(CG.Email.IEmailService, System.String, System.String, System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  nameWithType: EmailServiceExtensions.SendAsync(IEmailService, String, String, String, String, Boolean, CancellationToken)
+- uid: CG.Email.EmailServiceExtensions.SendAsync(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  name: SendAsync(IEmailService, String, String, String, String, String, Boolean, CancellationToken)
+  href: api/CG.Email.EmailServiceExtensions.html#CG_Email_EmailServiceExtensions_SendAsync_CG_Email_IEmailService_System_String_System_String_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  commentId: M:CG.Email.EmailServiceExtensions.SendAsync(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  fullName: CG.Email.EmailServiceExtensions.SendAsync(CG.Email.IEmailService, System.String, System.String, System.String, System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  nameWithType: EmailServiceExtensions.SendAsync(IEmailService, String, String, String, String, String, Boolean, CancellationToken)
+- uid: CG.Email.EmailServiceExtensions.SendAsync(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  name: SendAsync(IEmailService, String, String, String, String, String, String, Boolean, CancellationToken)
+  href: api/CG.Email.EmailServiceExtensions.html#CG_Email_EmailServiceExtensions_SendAsync_CG_Email_IEmailService_System_String_System_String_System_String_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  commentId: M:CG.Email.EmailServiceExtensions.SendAsync(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  fullName: CG.Email.EmailServiceExtensions.SendAsync(CG.Email.IEmailService, System.String, System.String, System.String, System.String, System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  nameWithType: EmailServiceExtensions.SendAsync(IEmailService, String, String, String, String, String, String, Boolean, CancellationToken)
+- uid: CG.Email.EmailServiceExtensions.SendAsync(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  name: SendAsync(IEmailService, String, String, String, String, String, String, String, Boolean, CancellationToken)
+  href: api/CG.Email.EmailServiceExtensions.html#CG_Email_EmailServiceExtensions_SendAsync_CG_Email_IEmailService_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  commentId: M:CG.Email.EmailServiceExtensions.SendAsync(CG.Email.IEmailService,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  fullName: CG.Email.EmailServiceExtensions.SendAsync(CG.Email.IEmailService, System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  nameWithType: EmailServiceExtensions.SendAsync(IEmailService, String, String, String, String, String, String, String, Boolean, CancellationToken)
+- uid: CG.Email.EmailServiceExtensions.SendAsync*
+  name: SendAsync
+  href: api/CG.Email.EmailServiceExtensions.html#CG_Email_EmailServiceExtensions_SendAsync_
+  commentId: Overload:CG.Email.EmailServiceExtensions.SendAsync
+  isSpec: "True"
+  fullName: CG.Email.EmailServiceExtensions.SendAsync
+  nameWithType: EmailServiceExtensions.SendAsync
+- uid: CG.Email.IEmailService
+  name: IEmailService
+  href: api/CG.Email.IEmailService.html
+  commentId: T:CG.Email.IEmailService
+  fullName: CG.Email.IEmailService
+  nameWithType: IEmailService
+- uid: CG.Email.IEmailService.SendAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  name: SendAsync(String, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, String, String, Boolean, CancellationToken)
+  href: api/CG.Email.IEmailService.html#CG_Email_IEmailService_SendAsync_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  commentId: M:CG.Email.IEmailService.SendAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  name.vb: SendAsync(String, IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), String, String, Boolean, CancellationToken)
+  fullName: CG.Email.IEmailService.SendAsync(System.String, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  fullName.vb: CG.Email.IEmailService.SendAsync(System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  nameWithType: IEmailService.SendAsync(String, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, String, String, Boolean, CancellationToken)
+  nameWithType.vb: IEmailService.SendAsync(String, IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), String, String, Boolean, CancellationToken)
+- uid: CG.Email.IEmailService.SendAsync*
+  name: SendAsync
+  href: api/CG.Email.IEmailService.html#CG_Email_IEmailService_SendAsync_
+  commentId: Overload:CG.Email.IEmailService.SendAsync
+  isSpec: "True"
+  fullName: CG.Email.IEmailService.SendAsync
+  nameWithType: IEmailService.SendAsync
+- uid: CG.Email.Options
+  name: CG.Email.Options
+  href: api/CG.Email.Options.html
+  commentId: N:CG.Email.Options
+  fullName: CG.Email.Options
+  nameWithType: CG.Email.Options
+- uid: CG.Email.Options.EmailServiceOptions
+  name: EmailServiceOptions
+  href: api/CG.Email.Options.EmailServiceOptions.html
+  commentId: T:CG.Email.Options.EmailServiceOptions
+  fullName: CG.Email.Options.EmailServiceOptions
+  nameWithType: EmailServiceOptions
+- uid: CG.Email.Options.EmailServiceOptions.#ctor
+  name: EmailServiceOptions()
+  href: api/CG.Email.Options.EmailServiceOptions.html#CG_Email_Options_EmailServiceOptions__ctor
+  commentId: M:CG.Email.Options.EmailServiceOptions.#ctor
+  fullName: CG.Email.Options.EmailServiceOptions.EmailServiceOptions()
+  nameWithType: EmailServiceOptions.EmailServiceOptions()
+- uid: CG.Email.Options.EmailServiceOptions.#ctor*
+  name: EmailServiceOptions
+  href: api/CG.Email.Options.EmailServiceOptions.html#CG_Email_Options_EmailServiceOptions__ctor_
+  commentId: Overload:CG.Email.Options.EmailServiceOptions.#ctor
+  isSpec: "True"
+  fullName: CG.Email.Options.EmailServiceOptions.EmailServiceOptions
+  nameWithType: EmailServiceOptions.EmailServiceOptions
+- uid: CG.Email.Options.EmailServiceOptions.Strategy
+  name: Strategy
+  href: api/CG.Email.Options.EmailServiceOptions.html#CG_Email_Options_EmailServiceOptions_Strategy
+  commentId: P:CG.Email.Options.EmailServiceOptions.Strategy
+  fullName: CG.Email.Options.EmailServiceOptions.Strategy
+  nameWithType: EmailServiceOptions.Strategy
+- uid: CG.Email.Options.EmailServiceOptions.Strategy*
+  name: Strategy
+  href: api/CG.Email.Options.EmailServiceOptions.html#CG_Email_Options_EmailServiceOptions_Strategy_
+  commentId: Overload:CG.Email.Options.EmailServiceOptions.Strategy
+  isSpec: "True"
+  fullName: CG.Email.Options.EmailServiceOptions.Strategy
+  nameWithType: EmailServiceOptions.Strategy
+- uid: CG.Email.Options.EmailStrategyOptions
+  name: EmailStrategyOptions
+  href: api/CG.Email.Options.EmailStrategyOptions.html
+  commentId: T:CG.Email.Options.EmailStrategyOptions
+  fullName: CG.Email.Options.EmailStrategyOptions
+  nameWithType: EmailStrategyOptions
+- uid: CG.Email.Options.EmailStrategyOptions.#ctor
+  name: EmailStrategyOptions()
+  href: api/CG.Email.Options.EmailStrategyOptions.html#CG_Email_Options_EmailStrategyOptions__ctor
+  commentId: M:CG.Email.Options.EmailStrategyOptions.#ctor
+  fullName: CG.Email.Options.EmailStrategyOptions.EmailStrategyOptions()
+  nameWithType: EmailStrategyOptions.EmailStrategyOptions()
+- uid: CG.Email.Options.EmailStrategyOptions.#ctor*
+  name: EmailStrategyOptions
+  href: api/CG.Email.Options.EmailStrategyOptions.html#CG_Email_Options_EmailStrategyOptions__ctor_
+  commentId: Overload:CG.Email.Options.EmailStrategyOptions.#ctor
+  isSpec: "True"
+  fullName: CG.Email.Options.EmailStrategyOptions.EmailStrategyOptions
+  nameWithType: EmailStrategyOptions.EmailStrategyOptions
+- uid: CG.Email.Options.EmailStrategyOptions.Assembly
+  name: Assembly
+  href: api/CG.Email.Options.EmailStrategyOptions.html#CG_Email_Options_EmailStrategyOptions_Assembly
+  commentId: P:CG.Email.Options.EmailStrategyOptions.Assembly
+  fullName: CG.Email.Options.EmailStrategyOptions.Assembly
+  nameWithType: EmailStrategyOptions.Assembly
+- uid: CG.Email.Options.EmailStrategyOptions.Assembly*
+  name: Assembly
+  href: api/CG.Email.Options.EmailStrategyOptions.html#CG_Email_Options_EmailStrategyOptions_Assembly_
+  commentId: Overload:CG.Email.Options.EmailStrategyOptions.Assembly
+  isSpec: "True"
+  fullName: CG.Email.Options.EmailStrategyOptions.Assembly
+  nameWithType: EmailStrategyOptions.Assembly
+- uid: CG.Email.Options.EmailStrategyOptions.Name
+  name: Name
+  href: api/CG.Email.Options.EmailStrategyOptions.html#CG_Email_Options_EmailStrategyOptions_Name
+  commentId: P:CG.Email.Options.EmailStrategyOptions.Name
+  fullName: CG.Email.Options.EmailStrategyOptions.Name
+  nameWithType: EmailStrategyOptions.Name
+- uid: CG.Email.Options.EmailStrategyOptions.Name*
+  name: Name
+  href: api/CG.Email.Options.EmailStrategyOptions.html#CG_Email_Options_EmailStrategyOptions_Name_
+  commentId: Overload:CG.Email.Options.EmailStrategyOptions.Name
+  isSpec: "True"
+  fullName: CG.Email.Options.EmailStrategyOptions.Name
+  nameWithType: EmailStrategyOptions.Name
+- uid: CG.Email.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  href: api/CG.Email.ServiceCollectionExtensions.html
+  commentId: T:CG.Email.ServiceCollectionExtensions
+  fullName: CG.Email.ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+- uid: CG.Email.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddEmail(IServiceCollection, IConfiguration)
+  href: api/CG.Email.ServiceCollectionExtensions.html#CG_Email_ServiceCollectionExtensions_AddEmail_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:CG.Email.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: CG.Email.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: ServiceCollectionExtensions.AddEmail(IServiceCollection, IConfiguration)
+- uid: CG.Email.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{CG.Email.Builders.IEmailStrategyBuilder})
+  name: AddEmail(IServiceCollection, Action<IEmailStrategyBuilder>)
+  href: api/CG.Email.ServiceCollectionExtensions.html#CG_Email_ServiceCollectionExtensions_AddEmail_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_CG_Email_Builders_IEmailStrategyBuilder__
+  commentId: M:CG.Email.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{CG.Email.Builders.IEmailStrategyBuilder})
+  name.vb: AddEmail(IServiceCollection, Action(Of IEmailStrategyBuilder))
+  fullName: CG.Email.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<CG.Email.Builders.IEmailStrategyBuilder>)
+  fullName.vb: CG.Email.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of CG.Email.Builders.IEmailStrategyBuilder))
+  nameWithType: ServiceCollectionExtensions.AddEmail(IServiceCollection, Action<IEmailStrategyBuilder>)
+  nameWithType.vb: ServiceCollectionExtensions.AddEmail(IServiceCollection, Action(Of IEmailStrategyBuilder))
+- uid: CG.Email.ServiceCollectionExtensions.AddEmail*
+  name: AddEmail
+  href: api/CG.Email.ServiceCollectionExtensions.html#CG_Email_ServiceCollectionExtensions_AddEmail_
+  commentId: Overload:CG.Email.ServiceCollectionExtensions.AddEmail
+  isSpec: "True"
+  fullName: CG.Email.ServiceCollectionExtensions.AddEmail
+  nameWithType: ServiceCollectionExtensions.AddEmail
+- uid: CG.Email.Strategies
+  name: CG.Email.Strategies
+  href: api/CG.Email.Strategies.html
+  commentId: N:CG.Email.Strategies
+  fullName: CG.Email.Strategies
+  nameWithType: CG.Email.Strategies
+- uid: CG.Email.Strategies.EmailStrategyBase`1
+  name: EmailStrategyBase<TOptions>
+  href: api/CG.Email.Strategies.EmailStrategyBase-1.html
+  commentId: T:CG.Email.Strategies.EmailStrategyBase`1
+  name.vb: EmailStrategyBase(Of TOptions)
+  fullName: CG.Email.Strategies.EmailStrategyBase<TOptions>
+  fullName.vb: CG.Email.Strategies.EmailStrategyBase(Of TOptions)
+  nameWithType: EmailStrategyBase<TOptions>
+  nameWithType.vb: EmailStrategyBase(Of TOptions)
+- uid: CG.Email.Strategies.EmailStrategyBase`1.#ctor(Microsoft.Extensions.Options.IOptions{`0})
+  name: EmailStrategyBase(IOptions<TOptions>)
+  href: api/CG.Email.Strategies.EmailStrategyBase-1.html#CG_Email_Strategies_EmailStrategyBase_1__ctor_Microsoft_Extensions_Options_IOptions__0__
+  commentId: M:CG.Email.Strategies.EmailStrategyBase`1.#ctor(Microsoft.Extensions.Options.IOptions{`0})
+  name.vb: EmailStrategyBase(IOptions(Of TOptions))
+  fullName: CG.Email.Strategies.EmailStrategyBase<TOptions>.EmailStrategyBase(Microsoft.Extensions.Options.IOptions<TOptions>)
+  fullName.vb: CG.Email.Strategies.EmailStrategyBase(Of TOptions).EmailStrategyBase(Microsoft.Extensions.Options.IOptions(Of TOptions))
+  nameWithType: EmailStrategyBase<TOptions>.EmailStrategyBase(IOptions<TOptions>)
+  nameWithType.vb: EmailStrategyBase(Of TOptions).EmailStrategyBase(IOptions(Of TOptions))
+- uid: CG.Email.Strategies.EmailStrategyBase`1.#ctor*
+  name: EmailStrategyBase
+  href: api/CG.Email.Strategies.EmailStrategyBase-1.html#CG_Email_Strategies_EmailStrategyBase_1__ctor_
+  commentId: Overload:CG.Email.Strategies.EmailStrategyBase`1.#ctor
+  isSpec: "True"
+  fullName: CG.Email.Strategies.EmailStrategyBase<TOptions>.EmailStrategyBase
+  fullName.vb: CG.Email.Strategies.EmailStrategyBase(Of TOptions).EmailStrategyBase
+  nameWithType: EmailStrategyBase<TOptions>.EmailStrategyBase
+  nameWithType.vb: EmailStrategyBase(Of TOptions).EmailStrategyBase
+- uid: CG.Email.Strategies.EmailStrategyBase`1.SendAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  name: SendAsync(String, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, String, String, Boolean, CancellationToken)
+  href: api/CG.Email.Strategies.EmailStrategyBase-1.html#CG_Email_Strategies_EmailStrategyBase_1_SendAsync_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  commentId: M:CG.Email.Strategies.EmailStrategyBase`1.SendAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  name.vb: SendAsync(String, IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), String, String, Boolean, CancellationToken)
+  fullName: CG.Email.Strategies.EmailStrategyBase<TOptions>.SendAsync(System.String, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  fullName.vb: CG.Email.Strategies.EmailStrategyBase(Of TOptions).SendAsync(System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  nameWithType: EmailStrategyBase<TOptions>.SendAsync(String, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, String, String, Boolean, CancellationToken)
+  nameWithType.vb: EmailStrategyBase(Of TOptions).SendAsync(String, IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), String, String, Boolean, CancellationToken)
+- uid: CG.Email.Strategies.EmailStrategyBase`1.SendAsync*
+  name: SendAsync
+  href: api/CG.Email.Strategies.EmailStrategyBase-1.html#CG_Email_Strategies_EmailStrategyBase_1_SendAsync_
+  commentId: Overload:CG.Email.Strategies.EmailStrategyBase`1.SendAsync
+  isSpec: "True"
+  fullName: CG.Email.Strategies.EmailStrategyBase<TOptions>.SendAsync
+  fullName.vb: CG.Email.Strategies.EmailStrategyBase(Of TOptions).SendAsync
+  nameWithType: EmailStrategyBase<TOptions>.SendAsync
+  nameWithType.vb: EmailStrategyBase(Of TOptions).SendAsync
+- uid: CG.Email.Strategies.IEmailStrategy
+  name: IEmailStrategy
+  href: api/CG.Email.Strategies.IEmailStrategy.html
+  commentId: T:CG.Email.Strategies.IEmailStrategy
+  fullName: CG.Email.Strategies.IEmailStrategy
+  nameWithType: IEmailStrategy
+- uid: CG.Email.Strategies.IEmailStrategy.SendAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  name: SendAsync(String, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, String, String, Boolean, CancellationToken)
+  href: api/CG.Email.Strategies.IEmailStrategy.html#CG_Email_Strategies_IEmailStrategy_SendAsync_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  commentId: M:CG.Email.Strategies.IEmailStrategy.SendAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  name.vb: SendAsync(String, IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), String, String, Boolean, CancellationToken)
+  fullName: CG.Email.Strategies.IEmailStrategy.SendAsync(System.String, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  fullName.vb: CG.Email.Strategies.IEmailStrategy.SendAsync(System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  nameWithType: IEmailStrategy.SendAsync(String, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, String, String, Boolean, CancellationToken)
+  nameWithType.vb: IEmailStrategy.SendAsync(String, IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), String, String, Boolean, CancellationToken)
+- uid: CG.Email.Strategies.IEmailStrategy.SendAsync*
+  name: SendAsync
+  href: api/CG.Email.Strategies.IEmailStrategy.html#CG_Email_Strategies_IEmailStrategy_SendAsync_
+  commentId: Overload:CG.Email.Strategies.IEmailStrategy.SendAsync
+  isSpec: "True"
+  fullName: CG.Email.Strategies.IEmailStrategy.SendAsync
+  nameWithType: IEmailStrategy.SendAsync
+- uid: CG.Email.Strategies.IEmailStrategy`1
+  name: IEmailStrategy<TSetup>
+  href: api/CG.Email.Strategies.IEmailStrategy-1.html
+  commentId: T:CG.Email.Strategies.IEmailStrategy`1
+  name.vb: IEmailStrategy(Of TSetup)
+  fullName: CG.Email.Strategies.IEmailStrategy<TSetup>
+  fullName.vb: CG.Email.Strategies.IEmailStrategy(Of TSetup)
+  nameWithType: IEmailStrategy<TSetup>
+  nameWithType.vb: IEmailStrategy(Of TSetup)
+- uid: CG.Email.Strategies.Options
+  name: CG.Email.Strategies.Options
+  href: api/CG.Email.Strategies.Options.html
+  commentId: N:CG.Email.Strategies.Options
+  fullName: CG.Email.Strategies.Options
+  nameWithType: CG.Email.Strategies.Options
+- uid: CG.Email.Strategies.Options.EmailStrategyOptionsBase
+  name: EmailStrategyOptionsBase
+  href: api/CG.Email.Strategies.Options.EmailStrategyOptionsBase.html
+  commentId: T:CG.Email.Strategies.Options.EmailStrategyOptionsBase
+  fullName: CG.Email.Strategies.Options.EmailStrategyOptionsBase
+  nameWithType: EmailStrategyOptionsBase
+- uid: CG.Email.Strategies.SmtpEmailStrategy
+  name: SmtpEmailStrategy
+  href: api/CG.Email.Strategies.SmtpEmailStrategy.html
+  commentId: T:CG.Email.Strategies.SmtpEmailStrategy
+  fullName: CG.Email.Strategies.SmtpEmailStrategy
+  nameWithType: SmtpEmailStrategy
+- uid: CG.Email.Strategies.SmtpEmailStrategy.#ctor(Microsoft.Extensions.Options.IOptions{CG.Email.Strategies.SmtpEmailStrategyOptions})
+  name: SmtpEmailStrategy(IOptions<SmtpEmailStrategyOptions>)
+  href: api/CG.Email.Strategies.SmtpEmailStrategy.html#CG_Email_Strategies_SmtpEmailStrategy__ctor_Microsoft_Extensions_Options_IOptions_CG_Email_Strategies_SmtpEmailStrategyOptions__
+  commentId: M:CG.Email.Strategies.SmtpEmailStrategy.#ctor(Microsoft.Extensions.Options.IOptions{CG.Email.Strategies.SmtpEmailStrategyOptions})
+  name.vb: SmtpEmailStrategy(IOptions(Of SmtpEmailStrategyOptions))
+  fullName: CG.Email.Strategies.SmtpEmailStrategy.SmtpEmailStrategy(Microsoft.Extensions.Options.IOptions<CG.Email.Strategies.SmtpEmailStrategyOptions>)
+  fullName.vb: CG.Email.Strategies.SmtpEmailStrategy.SmtpEmailStrategy(Microsoft.Extensions.Options.IOptions(Of CG.Email.Strategies.SmtpEmailStrategyOptions))
+  nameWithType: SmtpEmailStrategy.SmtpEmailStrategy(IOptions<SmtpEmailStrategyOptions>)
+  nameWithType.vb: SmtpEmailStrategy.SmtpEmailStrategy(IOptions(Of SmtpEmailStrategyOptions))
+- uid: CG.Email.Strategies.SmtpEmailStrategy.#ctor*
+  name: SmtpEmailStrategy
+  href: api/CG.Email.Strategies.SmtpEmailStrategy.html#CG_Email_Strategies_SmtpEmailStrategy__ctor_
+  commentId: Overload:CG.Email.Strategies.SmtpEmailStrategy.#ctor
+  isSpec: "True"
+  fullName: CG.Email.Strategies.SmtpEmailStrategy.SmtpEmailStrategy
+  nameWithType: SmtpEmailStrategy.SmtpEmailStrategy
+- uid: CG.Email.Strategies.SmtpEmailStrategy.Client
+  name: Client
+  href: api/CG.Email.Strategies.SmtpEmailStrategy.html#CG_Email_Strategies_SmtpEmailStrategy_Client
+  commentId: P:CG.Email.Strategies.SmtpEmailStrategy.Client
+  fullName: CG.Email.Strategies.SmtpEmailStrategy.Client
+  nameWithType: SmtpEmailStrategy.Client
+- uid: CG.Email.Strategies.SmtpEmailStrategy.Client*
+  name: Client
+  href: api/CG.Email.Strategies.SmtpEmailStrategy.html#CG_Email_Strategies_SmtpEmailStrategy_Client_
+  commentId: Overload:CG.Email.Strategies.SmtpEmailStrategy.Client
+  isSpec: "True"
+  fullName: CG.Email.Strategies.SmtpEmailStrategy.Client
+  nameWithType: SmtpEmailStrategy.Client
+- uid: CG.Email.Strategies.SmtpEmailStrategy.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/CG.Email.Strategies.SmtpEmailStrategy.html#CG_Email_Strategies_SmtpEmailStrategy_Dispose_System_Boolean_
+  commentId: M:CG.Email.Strategies.SmtpEmailStrategy.Dispose(System.Boolean)
+  fullName: CG.Email.Strategies.SmtpEmailStrategy.Dispose(System.Boolean)
+  nameWithType: SmtpEmailStrategy.Dispose(Boolean)
+- uid: CG.Email.Strategies.SmtpEmailStrategy.Dispose*
+  name: Dispose
+  href: api/CG.Email.Strategies.SmtpEmailStrategy.html#CG_Email_Strategies_SmtpEmailStrategy_Dispose_
+  commentId: Overload:CG.Email.Strategies.SmtpEmailStrategy.Dispose
+  isSpec: "True"
+  fullName: CG.Email.Strategies.SmtpEmailStrategy.Dispose
+  nameWithType: SmtpEmailStrategy.Dispose
+- uid: CG.Email.Strategies.SmtpEmailStrategy.SendAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  name: SendAsync(String, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, String, String, Boolean, CancellationToken)
+  href: api/CG.Email.Strategies.SmtpEmailStrategy.html#CG_Email_Strategies_SmtpEmailStrategy_SendAsync_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_String_System_String_System_Boolean_System_Threading_CancellationToken_
+  commentId: M:CG.Email.Strategies.SmtpEmailStrategy.SendAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean,System.Threading.CancellationToken)
+  name.vb: SendAsync(String, IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), String, String, Boolean, CancellationToken)
+  fullName: CG.Email.Strategies.SmtpEmailStrategy.SendAsync(System.String, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  fullName.vb: CG.Email.Strategies.SmtpEmailStrategy.SendAsync(System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.String, System.String, System.Boolean, System.Threading.CancellationToken)
+  nameWithType: SmtpEmailStrategy.SendAsync(String, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, IEnumerable<String>, String, String, Boolean, CancellationToken)
+  nameWithType.vb: SmtpEmailStrategy.SendAsync(String, IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), IEnumerable(Of String), String, String, Boolean, CancellationToken)
+- uid: CG.Email.Strategies.SmtpEmailStrategy.SendAsync*
+  name: SendAsync
+  href: api/CG.Email.Strategies.SmtpEmailStrategy.html#CG_Email_Strategies_SmtpEmailStrategy_SendAsync_
+  commentId: Overload:CG.Email.Strategies.SmtpEmailStrategy.SendAsync
+  isSpec: "True"
+  fullName: CG.Email.Strategies.SmtpEmailStrategy.SendAsync
+  nameWithType: SmtpEmailStrategy.SendAsync
+- uid: CG.Email.Strategies.SmtpEmailStrategyOptions
+  name: SmtpEmailStrategyOptions
+  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html
+  commentId: T:CG.Email.Strategies.SmtpEmailStrategyOptions
+  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions
+  nameWithType: SmtpEmailStrategyOptions
+- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.#ctor
+  name: SmtpEmailStrategyOptions()
+  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions__ctor
+  commentId: M:CG.Email.Strategies.SmtpEmailStrategyOptions.#ctor
+  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.SmtpEmailStrategyOptions()
+  nameWithType: SmtpEmailStrategyOptions.SmtpEmailStrategyOptions()
+- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.#ctor*
+  name: SmtpEmailStrategyOptions
+  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions__ctor_
+  commentId: Overload:CG.Email.Strategies.SmtpEmailStrategyOptions.#ctor
+  isSpec: "True"
+  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.SmtpEmailStrategyOptions
+  nameWithType: SmtpEmailStrategyOptions.SmtpEmailStrategyOptions
+- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.Password
+  name: Password
+  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_Password
+  commentId: P:CG.Email.Strategies.SmtpEmailStrategyOptions.Password
+  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.Password
+  nameWithType: SmtpEmailStrategyOptions.Password
+- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.Password*
+  name: Password
+  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_Password_
+  commentId: Overload:CG.Email.Strategies.SmtpEmailStrategyOptions.Password
+  isSpec: "True"
+  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.Password
+  nameWithType: SmtpEmailStrategyOptions.Password
+- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerAddress
+  name: ServerAddress
+  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_ServerAddress
+  commentId: P:CG.Email.Strategies.SmtpEmailStrategyOptions.ServerAddress
+  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerAddress
+  nameWithType: SmtpEmailStrategyOptions.ServerAddress
+- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerAddress*
+  name: ServerAddress
+  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_ServerAddress_
+  commentId: Overload:CG.Email.Strategies.SmtpEmailStrategyOptions.ServerAddress
+  isSpec: "True"
+  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerAddress
+  nameWithType: SmtpEmailStrategyOptions.ServerAddress
+- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerPort
+  name: ServerPort
+  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_ServerPort
+  commentId: P:CG.Email.Strategies.SmtpEmailStrategyOptions.ServerPort
+  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerPort
+  nameWithType: SmtpEmailStrategyOptions.ServerPort
+- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerPort*
+  name: ServerPort
+  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_ServerPort_
+  commentId: Overload:CG.Email.Strategies.SmtpEmailStrategyOptions.ServerPort
+  isSpec: "True"
+  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerPort
+  nameWithType: SmtpEmailStrategyOptions.ServerPort
+- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.UserName
+  name: UserName
+  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_UserName
+  commentId: P:CG.Email.Strategies.SmtpEmailStrategyOptions.UserName
+  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.UserName
+  nameWithType: SmtpEmailStrategyOptions.UserName
+- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.UserName*
+  name: UserName
+  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_UserName_
+  commentId: Overload:CG.Email.Strategies.SmtpEmailStrategyOptions.UserName
+  isSpec: "True"
+  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.UserName
+  nameWithType: SmtpEmailStrategyOptions.UserName
