@@ -2,7 +2,7 @@
 
 # Introduction
 
-CG.Email.dll contains general purpose email extensions. 
+CG.Email.dll contains an email service used by other CodeGator packages.
 
 
 
