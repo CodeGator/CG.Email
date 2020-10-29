@@ -110,11 +110,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CG.Email.Options.EmailOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Email.Options.EmailOptions.html",
+          "hash": "0pwxPhjxnWSYO1eqH8MFDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CG.Email.Options.EmailServiceOptions.yml",
       "output": {
         ".html": {
           "relative_path": "api/CG.Email.Options.EmailServiceOptions.html",
-          "hash": "vduwvGkz57u5C9M+60EwYQ=="
+          "hash": "BFxk6lOmV32o447AkjsL9w=="
         }
       },
       "is_incremental": false,
@@ -126,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Email.Options.EmailStrategyOptions.html",
-          "hash": "/e9Qb6YqaHD0Tlx93Z96YQ=="
+          "hash": "UKffLu2RkN7Vkq4pFuMiCg=="
         }
       },
       "is_incremental": false,
@@ -138,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Email.Options.html",
-          "hash": "BMWN6EZymtmmySPaObXkwA=="
+          "hash": "1HkZy/ZRTaDZK2mcORctPw=="
         }
       },
       "is_incremental": false,
@@ -282,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "R/CM9w+64xcw+3ImwQy/kQ=="
+          "hash": "OXEthj9BhzOxj8YsGYNl+A=="
         }
       },
       "is_incremental": false,
@@ -401,7 +413,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 21,
+          "total_file_count": 22,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
