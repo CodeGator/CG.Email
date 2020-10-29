@@ -20,6 +20,10 @@ namespace CG.Email.QuickStart
                 .RunDelegate(host =>
                 {
                     var email = host.Services.GetRequiredService<IEmailService>();
+
+                    // Change the addresses to something that works for you...
+                    //email.Send("from@noplace.biz", "to@noplace.biz", "test email", "this is a test");
+
                     Console.WriteLine("Hello World!");
                 });            
         }
