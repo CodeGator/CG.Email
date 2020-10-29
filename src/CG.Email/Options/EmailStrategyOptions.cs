@@ -22,7 +22,8 @@ namespace CG.Email.Options
         public string Name { get; set; }
 
         /// <summary>
-        /// This property contains the strategy's assembly.
+        /// This property contains an optional assembly name for strategies
+        /// located in an external assembly.
         /// </summary>
         public string Assembly { get; set; }
 

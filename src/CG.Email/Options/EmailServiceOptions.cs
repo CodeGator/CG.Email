@@ -17,7 +17,7 @@ namespace CG.Email.Options
         #region Properties
 
         /// <summary>
-        /// This property contains the strategy options.
+        /// This property contains the strategy for the email service.
         /// </summary>
         [Required]
         public EmailStrategyOptions Strategy { get; set; }
