@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace CG.Email
 {
     /// <summary>
-    /// This interface represents a service for sending email messages.
+    /// This interface represents an object that sends emails.
     /// </summary>
     public interface IEmailService : IService
     {

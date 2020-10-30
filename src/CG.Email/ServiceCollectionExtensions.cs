@@ -53,8 +53,8 @@ namespace CG.Email
         ///         "ServerPort": 25,
         ///         "UserName": "test@whatever.com",
         ///         "Password": "big secret"
-        ///     }
-        ///   }
+        ///       }
+        ///    }
         /// }
         /// </code>
         /// </para>
