@@ -10,12 +10,7 @@ namespace CG.Email.QuickStart
         static void Main(string[] args)
         {
             Host.CreateDefaultBuilder()
-                .ConfigureServices(services =>
-                {
-                    var provider = services.BuildServiceProvider();
-                    var configuration = provider.GetRequiredService<IConfiguration>();
-                    services.AddEmail(configuration.GetSection("Email"));
-                })
+                .AddEmail()
                 .Build()
                 .RunDelegate(host =>
                 {

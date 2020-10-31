@@ -11,7 +11,9 @@ namespace CG.Email.Strategies
     /// <summary>
     /// This class is an SMTP implementation of <see cref="IEmailStrategy{TOptions}"/>
     /// </summary>
-    public class SmtpEmailStrategy : EmailStrategyBase<SmtpEmailStrategyOptions>
+    internal class SmtpEmailStrategy : 
+        EmailStrategyBase<SmtpEmailStrategyOptions>, 
+        IEmailStrategy<SmtpEmailStrategyOptions>
     {
         // *******************************************************************
         // Properties.

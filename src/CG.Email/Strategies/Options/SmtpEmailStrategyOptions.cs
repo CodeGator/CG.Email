@@ -1,4 +1,5 @@
 ﻿using CG.Email.Strategies.Options;
+using CG.Options;
 using System;
 using System.ComponentModel.DataAnnotations;
 
@@ -36,7 +37,7 @@ namespace CG.Email.Strategies
         /// <summary>
         /// This property contains a password for the email account.
         /// </summary>
-        [Required]
+        [ProtectedProperty]
         public string Password { get; set; }
 
         #endregion
@@ -54,7 +55,6 @@ namespace CG.Email.Strategies
         public SmtpEmailStrategyOptions()
         {
             // Set default values here.
-            ServerAddress = "localhost";
             ServerPort = 25;
         }
 
