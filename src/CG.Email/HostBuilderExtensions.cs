@@ -61,7 +61,7 @@ namespace CG.Email
         /// should be configured. This section contains at least two nodes: <c>Strategy</c> and 
         /// <c>Assembly</c>. The <c>Strategy</c> node tells the host what strategy to load
         /// for the email service, and as such, is required. The <c>Assembly</c> section is 
-        /// options, and is only needed when the strategy is located in an external assembly 
+        /// optional, and is only needed when the strategy is located in an external assembly 
         /// that should be dynamically loaded at startup.
         /// </para>
         /// <para>
@@ -73,7 +73,9 @@ namespace CG.Email
         /// </para>
         /// <para>
         /// To locally encrypt for configuration, consider using the <c>QuickCrypt</c> tool,
-        /// which is free, open source, and is located here: https://github.com/CodeGator/CG.Tools.QuickCrypto
+        /// which is free, open source, and is located here: 
+        /// <see cref="https://github.com/CodeGator/CG.Tools.QuickCrypto"/> 
+        /// <a href="https://github.com/CodeGator/CG.Tools.QuickCrypto">https://github.com/CodeGator/CG.Tools.QuickCrypto</a>
         /// </para>
         /// </remarks>
         public static IHostBuilder AddEmail(
