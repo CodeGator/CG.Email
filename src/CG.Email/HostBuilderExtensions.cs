@@ -75,7 +75,6 @@ namespace CG.Email
         /// To locally encrypt for configuration, consider using the <c>QuickCrypt</c> tool,
         /// which is free, open source, and is located here: 
         /// <see cref="https://github.com/CodeGator/CG.Tools.QuickCrypto"/> 
-        /// <a href="https://github.com/CodeGator/CG.Tools.QuickCrypto">https://github.com/CodeGator/CG.Tools.QuickCrypto</a>
         /// </para>
         /// </remarks>
         public static IHostBuilder AddEmail(

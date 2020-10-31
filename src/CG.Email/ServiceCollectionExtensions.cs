@@ -58,6 +58,32 @@ namespace CG.Email
         /// }
         /// </code>
         /// </para>
+        /// <para>
+        /// Let's break it down. The <c>Services</c> section is where ALL services for the 
+        /// application should be configured. If you're adding a CodeGator service to your
+        /// application then you'll want to add that service to this section in order to 
+        /// configure the service at startup.
+        /// </para>
+        /// <para>
+        /// Under <c>Services</c>, the <c>Email</c> section is where the CodeGator email service 
+        /// should be configured. This section contains at least two nodes: <c>Strategy</c> and 
+        /// <c>Assembly</c>. The <c>Strategy</c> node tells the host what strategy to load
+        /// for the email service, and as such, is required. The <c>Assembly</c> section is 
+        /// optional, and is only needed when the strategy is located in an external assembly 
+        /// that should be dynamically loaded at startup.
+        /// </para>
+        /// <para>
+        /// The <c>Smtp</c> section is an example of a strategy section. This will vary, of
+        /// course, depending on which strategy is named in the <c>Strategy</c> node. In this
+        /// case, we see a made up example for an SMTP email strategy. One thing to note is, 
+        /// the <c>Smtp</c> strategy expects a locally encrypted value in the <c>Password</c>
+        /// node. Placing unencrypted text here will cause a runtime error.
+        /// </para>
+        /// <para>
+        /// To locally encrypt for configuration, consider using the <c>QuickCrypt</c> tool,
+        /// which is free, open source, and is located here: 
+        /// <see cref="https://github.com/CodeGator/CG.Tools.QuickCrypto"/> 
+        /// </para>
         /// </remarks>
         public static IServiceCollection AddEmail(
             this IServiceCollection serviceCollection,
