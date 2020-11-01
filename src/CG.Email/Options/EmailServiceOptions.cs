@@ -1,4 +1,5 @@
 ﻿using CG.Business.Services.Options;
+using CG.Email.Strategies.Options;
 using System;
 using System.ComponentModel.DataAnnotations;
 

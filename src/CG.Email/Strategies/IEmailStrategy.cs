@@ -1,6 +1,5 @@
-﻿using CG.Business.Services;
-using CG.Business.Strategies;
-using System;
+﻿using CG.Business.Strategies;
+using CG.Email.Strategies.Options;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
@@ -42,9 +41,9 @@ namespace CG.Email.Strategies
     /// <summary>
     /// This interface represents a strategy for sending email messages.
     /// </summary>
-    /// <typeparam name="TSetup">The type of associated setup.</typeparam>
-    public interface IEmailStrategy<TSetup> : IEmailStrategy
-        where TSetup : class
+    /// <typeparam name="TOptions">The type of associated options.</typeparam>
+    public interface IEmailStrategy<TOptions> : IEmailStrategy
+        where TOptions : EmailStrategyOptions, new()
     {
         
     }
