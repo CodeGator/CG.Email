@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class HostBuilderExtensions
+    <title>Class ServiceCollectionExtensions
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class HostBuilderExtensions
+    <meta name="title" content="Class ServiceCollectionExtensions
    ">
     <meta name="generator" content="docfx 2.56.4.0">
     
@@ -78,19 +78,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CG.Email.HostBuilderExtensions">
+            <article class="content wrap" id="_content" data-uid="Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions">
   
   
-  <h1 id="CG_Email_HostBuilderExtensions" data-uid="CG.Email.HostBuilderExtensions" class="text-break">Class HostBuilderExtensions
+  <h1 id="Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions" data-uid="Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions" class="text-break">Class ServiceCollectionExtensions
   </h1>
-  <div class="markdown level0 summary"><p>This class contains extension methods related to the <span class="xref">Microsoft.Extensions.Hosting.IHostBuilder</span>
+  <div class="markdown level0 summary"><p>This class contains extension methods related to the <span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span>
 type.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">HostBuilderExtensions</span></div>
+    <div class="level1"><span class="xref">ServiceCollectionExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -116,23 +116,23 @@ type.</p>
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CG.Email.html">CG.Email</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Microsoft.Extensions.DependencyInjection.html">Microsoft.Extensions.DependencyInjection</a></h6>
   <h6><strong>Assembly</strong>: CG.Email.dll</h6>
-  <h5 id="CG_Email_HostBuilderExtensions_syntax">Syntax</h5>
+  <h5 id="Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class HostBuilderExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ServiceCollectionExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="CG_Email_HostBuilderExtensions_AddEmail_" data-uid="CG.Email.HostBuilderExtensions.AddEmail*"></a>
-  <h4 id="CG_Email_HostBuilderExtensions_AddEmail_Microsoft_Extensions_Hosting_IHostBuilder_" data-uid="CG.Email.HostBuilderExtensions.AddEmail(Microsoft.Extensions.Hosting.IHostBuilder)">AddEmail(IHostBuilder)</h4>
-  <div class="markdown level1 summary"><p>This method adds a standard email service to the specified host
-builder.</p>
+  <a id="Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddEmail_" data-uid="Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail*"></a>
+  <h4 id="Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddEmail_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_" data-uid="Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">AddEmail(IServiceCollection, IConfiguration)</h4>
+  <div class="markdown level1 summary"><p>This method adds services and strategies for sending email to the
+specified service collection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IHostBuilder AddEmail(this IHostBuilder hostBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IServiceCollection AddEmail(this IServiceCollection serviceCollection, IConfiguration configuration)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -145,9 +145,16 @@ builder.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.Extensions.Hosting.IHostBuilder</span></td>
-        <td><span class="parametername">hostBuilder</span></td>
-        <td><p>The host builder to use for the operation.</p>
+        <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
+        <td><span class="parametername">serviceCollection</span></td>
+        <td><p>The service collection to use for
+the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span></td>
+        <td><span class="parametername">configuration</span></td>
+        <td><p>the configuration to use for the operation.</p>
 </td>
       </tr>
     </tbody>
@@ -162,30 +169,31 @@ builder.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.Extensions.Hosting.IHostBuilder</span></td>
-        <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">hostBuilder</code> parameter,
-for chaining calls together.</p>
+        <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
+        <td><p>A <span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span> object for building up
+an strategies for the service.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="CG_Email_HostBuilderExtensions_AddEmail_Microsoft_Extensions_Hosting_IHostBuilder__remarks">Remarks</h5>
+  <h5 id="Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddEmail_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>
-The idea with this method, is to create a quick and easy way to 
-setup email services for a hosted application by following a simple
-configuration convention. That convention assumes a configuration section
-exists like this:
+This method builds up an email service using information read from 
+the specified configuration. 
+</p>
+<p>
+Here is an example for the JSON configuration:
 <pre><code class="lang-json">{
-   &quot;Services&quot; : {
-      &quot;Email&quot;: {
-         &quot;Strategy&quot; : &quot;Smtp&quot;,
-         &quot;Assembly&quot; : &quot;&quot;,
-         &quot;Smtp&quot;: {
-         &quot;ServerAddress&quot;: &quot;localhost&quot;,
-         &quot;ServerPort&quot;: 25,
-         &quot;UserName&quot;: &quot;me@mine.biz&quot;,
-         &quot;Password&quot;: &quot;locally encrypted password&quot;
-         }
+    &quot;Email&quot;: {
+      &quot;Strategy&quot;: {
+          &quot;Name&quot;: &quot;Smtp&quot;,
+          &quot;Assembly&quot;: &quot;CG.Email&quot;
+        },
+      &quot;Smtp&quot;: {
+        &quot;ServerAddress&quot;: &quot;localhost&quot;,
+        &quot;ServerPort&quot;: 25,
+        &quot;UserName&quot;: &quot;test@whatever.com&quot;,
+        &quot;Password&quot;: &quot;big secret&quot;
       }
    }
 }</code></pre>
@@ -229,7 +237,76 @@ which is free, open source, and is located here:
       <tr>
         <td><span class="xref">System.ArgumentException</span></td>
         <td><p>This exception is thrown whenever
-one or more of the required parameters is missing or invalid.</p>
+a required argument is missing or invalid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddEmail_" data-uid="Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail*"></a>
+  <h4 id="Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddEmail_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_CG_Email_Builders_IEmailStrategyBuilder__" data-uid="Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{CG.Email.Builders.IEmailStrategyBuilder})">AddEmail(IServiceCollection, Action&lt;IEmailStrategyBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>This method adds services and strategies for sending email to the
+specified service collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IServiceCollection AddEmail(this IServiceCollection serviceCollection, Action&lt;IEmailStrategyBuilder&gt; builderAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
+        <td><span class="parametername">serviceCollection</span></td>
+        <td><p>The service collection to use for
+the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="CG.Email.Builders.IEmailStrategyBuilder.html">IEmailStrategyBuilder</a>&gt;</td>
+        <td><span class="parametername">builderAction</span></td>
+        <td><p>The delegate to use for the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
+        <td><p>A <span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span> object for building up
+an strategies for the service.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>This exception is thrown whenever
+a required argument is missing or invalid.</p>
 </td>
       </tr>
     </tbody>

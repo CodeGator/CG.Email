@@ -254,25 +254,6 @@ references:
   isSpec: "True"
   fullName: CG.Email.EmailServiceExtensions.SendAsync
   nameWithType: EmailServiceExtensions.SendAsync
-- uid: CG.Email.HostBuilderExtensions
-  name: HostBuilderExtensions
-  href: api/CG.Email.HostBuilderExtensions.html
-  commentId: T:CG.Email.HostBuilderExtensions
-  fullName: CG.Email.HostBuilderExtensions
-  nameWithType: HostBuilderExtensions
-- uid: CG.Email.HostBuilderExtensions.AddEmail(Microsoft.Extensions.Hosting.IHostBuilder)
-  name: AddEmail(IHostBuilder)
-  href: api/CG.Email.HostBuilderExtensions.html#CG_Email_HostBuilderExtensions_AddEmail_Microsoft_Extensions_Hosting_IHostBuilder_
-  commentId: M:CG.Email.HostBuilderExtensions.AddEmail(Microsoft.Extensions.Hosting.IHostBuilder)
-  fullName: CG.Email.HostBuilderExtensions.AddEmail(Microsoft.Extensions.Hosting.IHostBuilder)
-  nameWithType: HostBuilderExtensions.AddEmail(IHostBuilder)
-- uid: CG.Email.HostBuilderExtensions.AddEmail*
-  name: AddEmail
-  href: api/CG.Email.HostBuilderExtensions.html#CG_Email_HostBuilderExtensions_AddEmail_
-  commentId: Overload:CG.Email.HostBuilderExtensions.AddEmail
-  isSpec: "True"
-  fullName: CG.Email.HostBuilderExtensions.AddEmail
-  nameWithType: HostBuilderExtensions.AddEmail
 - uid: CG.Email.IEmailService
   name: IEmailService
   href: api/CG.Email.IEmailService.html
@@ -378,34 +359,6 @@ references:
   isSpec: "True"
   fullName: CG.Email.Options.EmailStrategyOptions.Name
   nameWithType: EmailStrategyOptions.Name
-- uid: CG.Email.ServiceCollectionExtensions
-  name: ServiceCollectionExtensions
-  href: api/CG.Email.ServiceCollectionExtensions.html
-  commentId: T:CG.Email.ServiceCollectionExtensions
-  fullName: CG.Email.ServiceCollectionExtensions
-  nameWithType: ServiceCollectionExtensions
-- uid: CG.Email.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
-  name: AddEmail(IServiceCollection, IConfiguration)
-  href: api/CG.Email.ServiceCollectionExtensions.html#CG_Email_ServiceCollectionExtensions_AddEmail_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
-  commentId: M:CG.Email.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
-  fullName: CG.Email.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
-  nameWithType: ServiceCollectionExtensions.AddEmail(IServiceCollection, IConfiguration)
-- uid: CG.Email.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{CG.Email.Builders.IEmailStrategyBuilder})
-  name: AddEmail(IServiceCollection, Action<IEmailStrategyBuilder>)
-  href: api/CG.Email.ServiceCollectionExtensions.html#CG_Email_ServiceCollectionExtensions_AddEmail_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_CG_Email_Builders_IEmailStrategyBuilder__
-  commentId: M:CG.Email.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{CG.Email.Builders.IEmailStrategyBuilder})
-  name.vb: AddEmail(IServiceCollection, Action(Of IEmailStrategyBuilder))
-  fullName: CG.Email.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<CG.Email.Builders.IEmailStrategyBuilder>)
-  fullName.vb: CG.Email.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of CG.Email.Builders.IEmailStrategyBuilder))
-  nameWithType: ServiceCollectionExtensions.AddEmail(IServiceCollection, Action<IEmailStrategyBuilder>)
-  nameWithType.vb: ServiceCollectionExtensions.AddEmail(IServiceCollection, Action(Of IEmailStrategyBuilder))
-- uid: CG.Email.ServiceCollectionExtensions.AddEmail*
-  name: AddEmail
-  href: api/CG.Email.ServiceCollectionExtensions.html#CG_Email_ServiceCollectionExtensions_AddEmail_
-  commentId: Overload:CG.Email.ServiceCollectionExtensions.AddEmail
-  isSpec: "True"
-  fullName: CG.Email.ServiceCollectionExtensions.AddEmail
-  nameWithType: ServiceCollectionExtensions.AddEmail
 - uid: CG.Email.Strategies
   name: CG.Email.Strategies
   href: api/CG.Email.Strategies.html
@@ -516,12 +469,12 @@ references:
   commentId: N:CG.Email.Strategies.Options
   fullName: CG.Email.Strategies.Options
   nameWithType: CG.Email.Strategies.Options
-- uid: CG.Email.Strategies.Options.EmailStrategyOptionsBase
-  name: EmailStrategyOptionsBase
-  href: api/CG.Email.Strategies.Options.EmailStrategyOptionsBase.html
-  commentId: T:CG.Email.Strategies.Options.EmailStrategyOptionsBase
-  fullName: CG.Email.Strategies.Options.EmailStrategyOptionsBase
-  nameWithType: EmailStrategyOptionsBase
+- uid: CG.Email.Strategies.Options.EmailStrategyOptions
+  name: EmailStrategyOptions
+  href: api/CG.Email.Strategies.Options.EmailStrategyOptions.html
+  commentId: T:CG.Email.Strategies.Options.EmailStrategyOptions
+  fullName: CG.Email.Strategies.Options.EmailStrategyOptions
+  nameWithType: EmailStrategyOptions
 - uid: CG.Email.Strategies.SmtpEmailStrategyOptions
   name: SmtpEmailStrategyOptions
   href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html
@@ -593,3 +546,62 @@ references:
   isSpec: "True"
   fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.UserName
   nameWithType: SmtpEmailStrategyOptions.UserName
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  href: api/Microsoft.Extensions.DependencyInjection.html
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddEmail(IServiceCollection, IConfiguration)
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddEmail_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: ServiceCollectionExtensions.AddEmail(IServiceCollection, IConfiguration)
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{CG.Email.Builders.IEmailStrategyBuilder})
+  name: AddEmail(IServiceCollection, Action<IEmailStrategyBuilder>)
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddEmail_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_CG_Email_Builders_IEmailStrategyBuilder__
+  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{CG.Email.Builders.IEmailStrategyBuilder})
+  name.vb: AddEmail(IServiceCollection, Action(Of IEmailStrategyBuilder))
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<CG.Email.Builders.IEmailStrategyBuilder>)
+  fullName.vb: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of CG.Email.Builders.IEmailStrategyBuilder))
+  nameWithType: ServiceCollectionExtensions.AddEmail(IServiceCollection, Action<IEmailStrategyBuilder>)
+  nameWithType.vb: ServiceCollectionExtensions.AddEmail(IServiceCollection, Action(Of IEmailStrategyBuilder))
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail*
+  name: AddEmail
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddEmail_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail
+  isSpec: "True"
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail
+  nameWithType: ServiceCollectionExtensions.AddEmail
+- uid: Microsoft.Extensions.Hosting
+  name: Microsoft.Extensions.Hosting
+  href: api/Microsoft.Extensions.Hosting.html
+  commentId: N:Microsoft.Extensions.Hosting
+  fullName: Microsoft.Extensions.Hosting
+  nameWithType: Microsoft.Extensions.Hosting
+- uid: Microsoft.Extensions.Hosting.HostBuilderExtensions
+  name: HostBuilderExtensions
+  href: api/Microsoft.Extensions.Hosting.HostBuilderExtensions.html
+  commentId: T:Microsoft.Extensions.Hosting.HostBuilderExtensions
+  fullName: Microsoft.Extensions.Hosting.HostBuilderExtensions
+  nameWithType: HostBuilderExtensions
+- uid: Microsoft.Extensions.Hosting.HostBuilderExtensions.AddEmail(Microsoft.Extensions.Hosting.IHostBuilder)
+  name: AddEmail(IHostBuilder)
+  href: api/Microsoft.Extensions.Hosting.HostBuilderExtensions.html#Microsoft_Extensions_Hosting_HostBuilderExtensions_AddEmail_Microsoft_Extensions_Hosting_IHostBuilder_
+  commentId: M:Microsoft.Extensions.Hosting.HostBuilderExtensions.AddEmail(Microsoft.Extensions.Hosting.IHostBuilder)
+  fullName: Microsoft.Extensions.Hosting.HostBuilderExtensions.AddEmail(Microsoft.Extensions.Hosting.IHostBuilder)
+  nameWithType: HostBuilderExtensions.AddEmail(IHostBuilder)
+- uid: Microsoft.Extensions.Hosting.HostBuilderExtensions.AddEmail*
+  name: AddEmail
+  href: api/Microsoft.Extensions.Hosting.HostBuilderExtensions.html#Microsoft_Extensions_Hosting_HostBuilderExtensions_AddEmail_
+  commentId: Overload:Microsoft.Extensions.Hosting.HostBuilderExtensions.AddEmail
+  isSpec: "True"
+  fullName: Microsoft.Extensions.Hosting.HostBuilderExtensions.AddEmail
+  nameWithType: HostBuilderExtensions.AddEmail
