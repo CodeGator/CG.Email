@@ -6,7 +6,7 @@ using System.Net.Mail;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CG.Email.Strategies
+namespace CG.Email.Strategies.Smtp
 {
     /// <summary>
     /// This class is an SMTP implementation of <see cref="IEmailStrategy{TOptions}"/>
@@ -131,7 +131,7 @@ namespace CG.Email.Strategies
             }
 
             // Send the message.
-            Client.SendAsync(message, token);
+            Client.Send(message);
 
             // Create a dummy result since SMTP doesn't give us a real one.
             var retValue = new EmailResult()
@@ -246,6 +246,5 @@ namespace CG.Email.Strategies
         }
 
         #endregion
-
     }
 }

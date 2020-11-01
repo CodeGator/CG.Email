@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CG.Email.Strategies
+namespace CG.Email.Strategies.DoNothing
 {
     /// <summary>
     /// This class is a "do nothing" implementation of <see cref="IEmailStrategy"/>

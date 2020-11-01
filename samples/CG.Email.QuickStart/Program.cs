@@ -14,12 +14,26 @@ namespace CG.Email.QuickStart
                 .Build()
                 .RunDelegate(host =>
                 {
-                    var email = host.Services.GetRequiredService<IEmailService>();
-
-                    // Change the addresses to something that works for you...
-                    //email.Send("from@noplace.biz", "to@noplace.biz", "test email", "this is a test");
-
-                    Console.WriteLine("Hello World!");
+                    try
+                    {
+                        var email = host.Services.GetRequiredService<IEmailService>();
+                        email.Send(
+                            "to@notreal.adx",
+                            "from@notreal.adx",
+                            "test email",
+                            "this is a test"
+                            );
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"ERROR: {ex.Message}");
+                    }
+                    finally
+                    {
+                        Console.WriteLine("Press any key to exit ...");
+                        Console.ReadKey();
+                    }
+                    
                 });            
         }
     }

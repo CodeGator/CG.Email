@@ -96,7 +96,7 @@ namespace CG.Email
                 if (section.GetChildren().Any())
                 {
                     // If we get here then we can setup an email service using 
-                    //   whatever happens to be in the configutation section.
+                    //   whatever happens to be in the configuration section.
 
                     // Use the section to configure the email service.
                     serviceCollection.AddEmail(section);

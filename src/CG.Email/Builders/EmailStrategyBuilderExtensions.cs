@@ -1,4 +1,6 @@
 ﻿using CG.Email.Strategies;
+using CG.Email.Strategies.DoNothing;
+using CG.Email.Strategies.Smtp;
 using CG.Validations;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
