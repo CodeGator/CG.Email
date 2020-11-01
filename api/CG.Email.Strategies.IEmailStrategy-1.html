@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IEmailStrategy&lt;TSetup&gt;
+    <title>Interface IEmailStrategy&lt;TOptions&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IEmailStrategy&lt;TSetup&gt;
+    <meta name="title" content="Interface IEmailStrategy&lt;TOptions&gt;
    ">
     <meta name="generator" content="docfx 2.56.4.0">
     
@@ -81,7 +81,7 @@
             <article class="content wrap" id="_content" data-uid="CG.Email.Strategies.IEmailStrategy`1">
   
   
-  <h1 id="CG_Email_Strategies_IEmailStrategy_1" data-uid="CG.Email.Strategies.IEmailStrategy`1" class="text-break">Interface IEmailStrategy&lt;TSetup&gt;
+  <h1 id="CG_Email_Strategies_IEmailStrategy_1" data-uid="CG.Email.Strategies.IEmailStrategy`1" class="text-break">Interface IEmailStrategy&lt;TOptions&gt;
   </h1>
   <div class="markdown level0 summary"><p>This interface represents a strategy for sending email messages.</p>
 </div>
@@ -99,7 +99,7 @@
   <h6><strong>Assembly</strong>: CG.Email.dll</h6>
   <h5 id="CG_Email_Strategies_IEmailStrategy_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IEmailStrategy&lt;TSetup&gt; : IEmailStrategy, IStrategy, IDisposable where TSetup : class</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IEmailStrategy&lt;TOptions&gt; : IEmailStrategy, IStrategy, IDisposable where TOptions : EmailStrategyOptions, new()</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -111,8 +111,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TSetup</span></td>
-        <td><p>The type of associated setup.</p>
+        <td><span class="parametername">TOptions</span></td>
+        <td><p>The type of associated options.</p>
 </td>
       </tr>
     </tbody>

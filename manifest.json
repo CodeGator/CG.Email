@@ -114,19 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Email.Options.EmailServiceOptions.html",
-          "hash": "XyXILBuBKRTz6v4gHjen6A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Email.Options.EmailStrategyOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Email.Options.EmailStrategyOptions.html",
-          "hash": "f4z3IOwGvyJtPShtdjfufQ=="
+          "hash": "0HVD+MprsYnGcp42zIUw2Q=="
         }
       },
       "is_incremental": false,
@@ -138,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Email.Options.html",
-          "hash": "DlYBigkmIK5WqllEARon7w=="
+          "hash": "r0KhqTdiqPojiL7I4nWaFg=="
         }
       },
       "is_incremental": false,
@@ -150,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Email.Strategies.EmailStrategyBase-1.html",
-          "hash": "kU+MajtDPBOJRtb99PGbmQ=="
+          "hash": "unGziWPzwZPCZbfio+DzFw=="
         }
       },
       "is_incremental": false,
@@ -174,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Email.Strategies.IEmailStrategy-1.html",
-          "hash": "yUAm5M2kay4L1jG0HoRD5w=="
+          "hash": "KRCpKjoQ5rqWT1IZa2XKnQ=="
         }
       },
       "is_incremental": false,
@@ -198,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Email.Strategies.Options.EmailStrategyOptions.html",
-          "hash": "w8c6rAePf0gnRuEFebMr3w=="
+          "hash": "9j1+ZTT5AOGKyEM2hSALuQ=="
         }
       },
       "is_incremental": false,
@@ -222,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Email.Strategies.SmtpEmailStrategyOptions.html",
-          "hash": "w5yxQay3u/FgS7gCiXGDTQ=="
+          "hash": "8J0T1rvy94PvYGHScLuJLg=="
         }
       },
       "is_incremental": false,
@@ -234,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Email.Strategies.html",
-          "hash": "4Izpbck3L+u4sjzNQFmRRw=="
+          "hash": "6emI8vD3QtQJ3B3gvcvs2g=="
         }
       },
       "is_incremental": false,
@@ -318,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "e6Pqw/UFAdfVR756VGpK5g=="
+          "hash": "YEzuCQXOBNbj8jaHUiAdJg=="
         }
       },
       "is_incremental": false,
@@ -437,7 +425,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 24,
+          "total_file_count": 23,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
