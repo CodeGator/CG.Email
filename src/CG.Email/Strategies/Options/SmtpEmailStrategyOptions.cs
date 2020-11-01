@@ -9,7 +9,7 @@ namespace CG.Email.Strategies
     /// This class contains options information for the <see cref="SmtpEmailStrategy"/>
     /// class.
     /// </summary>
-    public class SmtpEmailStrategyOptions : EmailStrategyOptionsBase
+    public class SmtpEmailStrategyOptions : EmailStrategyOptions
     {
         // *******************************************************************
         // Properties.

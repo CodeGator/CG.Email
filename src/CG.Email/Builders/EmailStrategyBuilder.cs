@@ -9,7 +9,15 @@ namespace CG.Email.Builders
     /// </summary>
     internal class EmailStrategyBuilder : IEmailStrategyBuilder
     {
+        // *******************************************************************
+        // Properties.
+        // *******************************************************************
+
+        #region Properties
+
         /// <inheritdoc/>
         public IServiceCollection Services { get; set; }
+
+        #endregion
     }
 }

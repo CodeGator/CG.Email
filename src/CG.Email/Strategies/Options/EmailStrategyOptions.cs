@@ -6,7 +6,7 @@ namespace CG.Email.Strategies.Options
     /// <summary>
     /// This class represents configuration options for an email strategy.
     /// </summary>
-    public class EmailStrategyOptionsBase : StrategyOptions
+    public class EmailStrategyOptions : StrategyOptions
     {
 
     }

@@ -1,15 +1,15 @@
-﻿using CG.Email.Builders;
+﻿using CG.Email;
+using CG.Email.Builders;
 using CG.Email.Options;
 using CG.Email.Properties;
 using CG.Reflection;
 using CG.Validations;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
 using System.Reflection;
 
-namespace CG.Email
+namespace Microsoft.Extensions.DependencyInjection
 {
     /// <summary>
     /// This class contains extension methods related to the <see cref="IServiceCollection"/>

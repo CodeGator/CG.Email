@@ -1,10 +1,10 @@
 ﻿using CG.Email.Builders;
 using CG.Validations;
-using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
 
-namespace CG.Email
+namespace Microsoft.Extensions.Hosting
 {
     /// <summary>
     /// This class contains extension methods related to the <see cref="IHostBuilder"/>
