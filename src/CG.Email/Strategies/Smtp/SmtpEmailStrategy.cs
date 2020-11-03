@@ -136,7 +136,7 @@ namespace CG.Email.Strategies.Smtp
             // Create a dummy result since SMTP doesn't give us a real one.
             var retValue = new EmailResult()
             {
-                EmailId = $"{Guid.NewGuid().GetHashCode()}"
+                EmailId = $"{Guid.NewGuid():N}"
             };
 
             // Return the result.

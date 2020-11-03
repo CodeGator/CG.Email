@@ -47,7 +47,7 @@ namespace CG.Email.Strategies.DoNothing
             //   strategy.
             var retValue = new EmailResult()
             {
-                EmailId = $"{Guid.NewGuid().GetHashCode()}"
+                EmailId = $"{Guid.NewGuid():N}"
             };
 
             // Return the result.

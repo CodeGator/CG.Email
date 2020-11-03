@@ -16,13 +16,18 @@ namespace CG.Email.QuickStart
                 {
                     try
                     {
+                        Console.WriteLine($"Getting email service...");
                         var email = host.Services.GetRequiredService<IEmailService>();
-                        email.Send(
+
+                        Console.WriteLine($"About to send email...");
+                        var result = email.Send(
                             "to@notreal.adx",
                             "from@notreal.adx",
                             "test email",
                             "this is a test"
                             );
+
+                        Console.WriteLine($"Result: {result.EmailId}");
                     }
                     catch (Exception ex)
                     {

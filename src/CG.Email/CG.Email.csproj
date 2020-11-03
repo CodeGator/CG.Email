@@ -27,7 +27,7 @@ Platforms supported:
 
   <ItemGroup>
     <PackageReference Include="CG.Business" Version="2020.1.24" />
-    <PackageReference Include="CG.Reflection" Version="2020.1.10" />
+    <PackageReference Include="CG.Reflection" Version="2020.1.11" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.9" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.9" />
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.9" />
