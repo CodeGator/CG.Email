@@ -106,10 +106,17 @@ namespace Microsoft.Extensions.DependencyInjection
             // Should we load an assembly for the strategy?
             if (!string.IsNullOrEmpty(emailServiceOptions.Strategy.Assembly))
             {
-                // Load the assembly for the strategy. 
-                _ = Assembly.Load(
-                    emailServiceOptions.Strategy.Assembly
-                    );
+                try
+                {
+                    // Load the assembly for the strategy. 
+                    _ = Assembly.Load(
+                        emailServiceOptions.Strategy.Assembly
+                        );
+                }
+                catch
+                {
+                    // Just eat the error.
+                }
             }
 
             var methodName = "";
