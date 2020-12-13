@@ -4,6 +4,7 @@
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Email/index.html)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Email.svg?style=flat)](https://nuget.org/packages/CG.Email)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Email/3)
+[![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Email/discussions)
 
 #### What does it do?
 The package contains email extension used by other CodeGator packages.
