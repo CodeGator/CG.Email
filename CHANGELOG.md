@@ -1,6 +1,10 @@
 # CG.Email change log
 ---
 
+## 2021.1
+
+* I bumped the major version for the new year.
+
 ## 2020.2
 
 * I copied the old code. 
