@@ -5,6 +5,8 @@
 
 * I bumped the major version for the new year.
 
+* I changed the build target to .net core 3.1
+
 ## 2020.2
 
 * I copied the old code. 

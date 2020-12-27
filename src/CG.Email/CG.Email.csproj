@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <DocumentationFile>bin\Debug\netstandard2.0\cg.email.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netcoreapp3.1\cg.email.xml</DocumentationFile>
     <IncludeSymbols>true</IncludeSymbols>
     <IncludeSource>true</IncludeSource>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -11,8 +11,8 @@
     <Description>This package contains email extensions used by other CodeGator packages. 
 
 Platforms supported:
-      .NET Standard 2.0 or above</Description>
-    <Copyright>Copyright © 2019 - 2020 by CodeGator. All rights reserved.</Copyright>
+      .NET Core 3.1 or above</Description>
+    <Copyright>Copyright © 2019 - 2021 by CodeGator. All rights reserved.</Copyright>
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/CodeGator/CG.Email</PackageProjectUrl>
     <PackageTags>email, CG.Email, CodeGator</PackageTags>
@@ -64,5 +64,9 @@ Platforms supported:
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
   
 </Project>
