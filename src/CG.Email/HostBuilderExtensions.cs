@@ -1,8 +1,6 @@
 ﻿using CG.Validations;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Linq;
 
 namespace Microsoft.Extensions.Hosting
 {
