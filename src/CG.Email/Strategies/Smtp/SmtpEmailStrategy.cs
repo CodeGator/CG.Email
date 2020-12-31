@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Options;
+﻿using CG.Email.Strategies.Options;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Net;

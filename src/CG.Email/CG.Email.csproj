@@ -27,7 +27,13 @@ Platforms supported:
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CG.Business" Version="2021.1.1" />
+    <Compile Remove="Builders\**" />
+    <EmbeddedResource Remove="Builders\**" />
+    <None Remove="Builders\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CG.Business" Version="2021.1.4" />
     <PackageReference Include="CG.Reflection" Version="2021.1.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />

@@ -1,9 +1,9 @@
-﻿using CG.Email.Strategies.Options;
+﻿using CG.Email.Strategies.Smtp;
 using CG.Options;
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace CG.Email.Strategies
+namespace CG.Email.Strategies.Options
 {
     /// <summary>
     /// This class contains options information for the <see cref="SmtpEmailStrategy"/>

@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
@@ -10,7 +11,10 @@ namespace CG.Email.QuickStart
         static void Main(string[] args)
         {
             Host.CreateDefaultBuilder()
-                .AddEmail()
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                })
                 .Build()
                 .RunDelegate(host =>
                 {
@@ -38,8 +42,7 @@ namespace CG.Email.QuickStart
                         Console.WriteLine("Press any key to exit ...");
                         Console.ReadKey();
                     }
-                    
-                });            
+                });
         }
     }
 }

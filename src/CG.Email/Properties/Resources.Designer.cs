@@ -70,6 +70,24 @@ namespace CG.Email.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to {0} error! It appears the method was called using the &apos;{1}&apos; configuration section. This method should be called using either the configuration root, or the Services section, or the Services:Email section..
+        /// </summary>
+        internal static string NotEmailSection {
+            get {
+                return ResourceManager.GetString("NotEmailSection", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} error! It appears the method was called using the &apos;{1}&apos; configuration section. This method should be called using the Smtp section..
+        /// </summary>
+        internal static string NotSmtpSection {
+            get {
+                return ResourceManager.GetString("NotSmtpSection", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Failed to locate an extension method named: &apos;{0}&apos; accepting an IConfiguration argument..
         /// </summary>
         internal static string ServiceCollectionExtensions_MethodNotFound {
