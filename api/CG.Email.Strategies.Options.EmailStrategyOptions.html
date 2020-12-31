@@ -83,7 +83,7 @@
   
   <h1 id="CG_Email_Strategies_Options_EmailStrategyOptions" data-uid="CG.Email.Strategies.Options.EmailStrategyOptions" class="text-break">Class EmailStrategyOptions
   </h1>
-  <div class="markdown level0 summary"><p>This class represents configuration options for an email strategy.</p>
+  <div class="markdown level0 summary"><p>This class contains configuration settings for an email strategy.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -93,7 +93,7 @@
     <div class="level2"><span class="xref">CG.Options.OptionsBase</span></div>
     <div class="level3"><span class="xref">CG.Business.Strategies.Options.StrategyOptions</span></div>
     <div class="level4"><span class="xref">EmailStrategyOptions</span></div>
-      <div class="level5"><a class="xref" href="CG.Email.Strategies.SmtpEmailStrategyOptions.html">SmtpEmailStrategyOptions</a></div>
+      <div class="level5"><a class="xref" href="CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html">SmtpEmailStrategyOptions</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -101,12 +101,6 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">CG.Business.Strategies.Options.StrategyOptions.SectionName</span>
-    </div>
-    <div>
-      <span class="xref">CG.Business.Strategies.Options.StrategyOptions.Strategy</span>
-    </div>
     <div>
       <span class="xref">CG.DataAnnotations.ValidatableObject.Validate(System.ComponentModel.DataAnnotations.ValidationContext)</span>
     </div>
@@ -138,56 +132,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class EmailStrategyOptions : StrategyOptions, IValidatableObject</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  <a id="CG_Email_Strategies_Options_EmailStrategyOptions_Assembly_" data-uid="CG.Email.Strategies.Options.EmailStrategyOptions.Assembly*"></a>
-  <h4 id="CG_Email_Strategies_Options_EmailStrategyOptions_Assembly" data-uid="CG.Email.Strategies.Options.EmailStrategyOptions.Assembly">Assembly</h4>
-  <div class="markdown level1 summary"><p>This property contains an assembly name.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Assembly { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <a id="CG_Email_Strategies_Options_EmailStrategyOptions_Name_" data-uid="CG.Email.Strategies.Options.EmailStrategyOptions.Name*"></a>
-  <h4 id="CG_Email_Strategies_Options_EmailStrategyOptions_Name" data-uid="CG.Email.Strategies.Options.EmailStrategyOptions.Name">Name</h4>
-  <div class="markdown level1 summary"><p>This property contains a name for the strategy.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">System.ComponentModel.DataAnnotations.IValidatableObject</span>

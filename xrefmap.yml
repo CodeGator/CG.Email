@@ -7,72 +7,25 @@ references:
   commentId: N:CG.Email
   fullName: CG.Email
   nameWithType: CG.Email
-- uid: CG.Email.Builders
-  name: CG.Email.Builders
-  href: api/CG.Email.Builders.html
-  commentId: N:CG.Email.Builders
-  fullName: CG.Email.Builders
-  nameWithType: CG.Email.Builders
-- uid: CG.Email.Builders.EmailStrategyBuilderExtensions
-  name: EmailStrategyBuilderExtensions
-  href: api/CG.Email.Builders.EmailStrategyBuilderExtensions.html
-  commentId: T:CG.Email.Builders.EmailStrategyBuilderExtensions
-  fullName: CG.Email.Builders.EmailStrategyBuilderExtensions
-  nameWithType: EmailStrategyBuilderExtensions
-- uid: CG.Email.Builders.EmailStrategyBuilderExtensions.AddDoNothingStrategy(CG.Email.Builders.IEmailStrategyBuilder,Microsoft.Extensions.Configuration.IConfiguration)
-  name: AddDoNothingStrategy(IEmailStrategyBuilder, IConfiguration)
-  href: api/CG.Email.Builders.EmailStrategyBuilderExtensions.html#CG_Email_Builders_EmailStrategyBuilderExtensions_AddDoNothingStrategy_CG_Email_Builders_IEmailStrategyBuilder_Microsoft_Extensions_Configuration_IConfiguration_
-  commentId: M:CG.Email.Builders.EmailStrategyBuilderExtensions.AddDoNothingStrategy(CG.Email.Builders.IEmailStrategyBuilder,Microsoft.Extensions.Configuration.IConfiguration)
-  fullName: CG.Email.Builders.EmailStrategyBuilderExtensions.AddDoNothingStrategy(CG.Email.Builders.IEmailStrategyBuilder, Microsoft.Extensions.Configuration.IConfiguration)
-  nameWithType: EmailStrategyBuilderExtensions.AddDoNothingStrategy(IEmailStrategyBuilder, IConfiguration)
-- uid: CG.Email.Builders.EmailStrategyBuilderExtensions.AddDoNothingStrategy*
-  name: AddDoNothingStrategy
-  href: api/CG.Email.Builders.EmailStrategyBuilderExtensions.html#CG_Email_Builders_EmailStrategyBuilderExtensions_AddDoNothingStrategy_
-  commentId: Overload:CG.Email.Builders.EmailStrategyBuilderExtensions.AddDoNothingStrategy
+- uid: CG.Email.ApplicationBuilderExtensions
+  name: ApplicationBuilderExtensions
+  href: api/CG.Email.ApplicationBuilderExtensions.html
+  commentId: T:CG.Email.ApplicationBuilderExtensions
+  fullName: CG.Email.ApplicationBuilderExtensions
+  nameWithType: ApplicationBuilderExtensions
+- uid: CG.Email.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  name: UseEmail(IApplicationBuilder, IWebHostEnvironment)
+  href: api/CG.Email.ApplicationBuilderExtensions.html#CG_Email_ApplicationBuilderExtensions_UseEmail_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_
+  commentId: M:CG.Email.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  fullName: CG.Email.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  nameWithType: ApplicationBuilderExtensions.UseEmail(IApplicationBuilder, IWebHostEnvironment)
+- uid: CG.Email.ApplicationBuilderExtensions.UseEmail*
+  name: UseEmail
+  href: api/CG.Email.ApplicationBuilderExtensions.html#CG_Email_ApplicationBuilderExtensions_UseEmail_
+  commentId: Overload:CG.Email.ApplicationBuilderExtensions.UseEmail
   isSpec: "True"
-  fullName: CG.Email.Builders.EmailStrategyBuilderExtensions.AddDoNothingStrategy
-  nameWithType: EmailStrategyBuilderExtensions.AddDoNothingStrategy
-- uid: CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy(CG.Email.Builders.IEmailStrategyBuilder,Microsoft.Extensions.Configuration.IConfiguration)
-  name: AddSmtpStrategy(IEmailStrategyBuilder, IConfiguration)
-  href: api/CG.Email.Builders.EmailStrategyBuilderExtensions.html#CG_Email_Builders_EmailStrategyBuilderExtensions_AddSmtpStrategy_CG_Email_Builders_IEmailStrategyBuilder_Microsoft_Extensions_Configuration_IConfiguration_
-  commentId: M:CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy(CG.Email.Builders.IEmailStrategyBuilder,Microsoft.Extensions.Configuration.IConfiguration)
-  fullName: CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy(CG.Email.Builders.IEmailStrategyBuilder, Microsoft.Extensions.Configuration.IConfiguration)
-  nameWithType: EmailStrategyBuilderExtensions.AddSmtpStrategy(IEmailStrategyBuilder, IConfiguration)
-- uid: CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy(CG.Email.Builders.IEmailStrategyBuilder,System.Action{CG.Email.Strategies.SmtpEmailStrategyOptions})
-  name: AddSmtpStrategy(IEmailStrategyBuilder, Action<SmtpEmailStrategyOptions>)
-  href: api/CG.Email.Builders.EmailStrategyBuilderExtensions.html#CG_Email_Builders_EmailStrategyBuilderExtensions_AddSmtpStrategy_CG_Email_Builders_IEmailStrategyBuilder_System_Action_CG_Email_Strategies_SmtpEmailStrategyOptions__
-  commentId: M:CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy(CG.Email.Builders.IEmailStrategyBuilder,System.Action{CG.Email.Strategies.SmtpEmailStrategyOptions})
-  name.vb: AddSmtpStrategy(IEmailStrategyBuilder, Action(Of SmtpEmailStrategyOptions))
-  fullName: CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy(CG.Email.Builders.IEmailStrategyBuilder, System.Action<CG.Email.Strategies.SmtpEmailStrategyOptions>)
-  fullName.vb: CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy(CG.Email.Builders.IEmailStrategyBuilder, System.Action(Of CG.Email.Strategies.SmtpEmailStrategyOptions))
-  nameWithType: EmailStrategyBuilderExtensions.AddSmtpStrategy(IEmailStrategyBuilder, Action<SmtpEmailStrategyOptions>)
-  nameWithType.vb: EmailStrategyBuilderExtensions.AddSmtpStrategy(IEmailStrategyBuilder, Action(Of SmtpEmailStrategyOptions))
-- uid: CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy*
-  name: AddSmtpStrategy
-  href: api/CG.Email.Builders.EmailStrategyBuilderExtensions.html#CG_Email_Builders_EmailStrategyBuilderExtensions_AddSmtpStrategy_
-  commentId: Overload:CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy
-  isSpec: "True"
-  fullName: CG.Email.Builders.EmailStrategyBuilderExtensions.AddSmtpStrategy
-  nameWithType: EmailStrategyBuilderExtensions.AddSmtpStrategy
-- uid: CG.Email.Builders.IEmailStrategyBuilder
-  name: IEmailStrategyBuilder
-  href: api/CG.Email.Builders.IEmailStrategyBuilder.html
-  commentId: T:CG.Email.Builders.IEmailStrategyBuilder
-  fullName: CG.Email.Builders.IEmailStrategyBuilder
-  nameWithType: IEmailStrategyBuilder
-- uid: CG.Email.Builders.IEmailStrategyBuilder.Services
-  name: Services
-  href: api/CG.Email.Builders.IEmailStrategyBuilder.html#CG_Email_Builders_IEmailStrategyBuilder_Services
-  commentId: P:CG.Email.Builders.IEmailStrategyBuilder.Services
-  fullName: CG.Email.Builders.IEmailStrategyBuilder.Services
-  nameWithType: IEmailStrategyBuilder.Services
-- uid: CG.Email.Builders.IEmailStrategyBuilder.Services*
-  name: Services
-  href: api/CG.Email.Builders.IEmailStrategyBuilder.html#CG_Email_Builders_IEmailStrategyBuilder_Services_
-  commentId: Overload:CG.Email.Builders.IEmailStrategyBuilder.Services
-  isSpec: "True"
-  fullName: CG.Email.Builders.IEmailStrategyBuilder.Services
-  nameWithType: IEmailStrategyBuilder.Services
+  fullName: CG.Email.ApplicationBuilderExtensions.UseEmail
+  nameWithType: ApplicationBuilderExtensions.UseEmail
 - uid: CG.Email.EmailException
   name: EmailException
   href: api/CG.Email.EmailException.html
@@ -276,44 +229,6 @@ references:
   isSpec: "True"
   fullName: CG.Email.IEmailService.SendAsync
   nameWithType: IEmailService.SendAsync
-- uid: CG.Email.Options
-  name: CG.Email.Options
-  href: api/CG.Email.Options.html
-  commentId: N:CG.Email.Options
-  fullName: CG.Email.Options
-  nameWithType: CG.Email.Options
-- uid: CG.Email.Options.EmailServiceOptions
-  name: EmailServiceOptions
-  href: api/CG.Email.Options.EmailServiceOptions.html
-  commentId: T:CG.Email.Options.EmailServiceOptions
-  fullName: CG.Email.Options.EmailServiceOptions
-  nameWithType: EmailServiceOptions
-- uid: CG.Email.Options.EmailServiceOptions.#ctor
-  name: EmailServiceOptions()
-  href: api/CG.Email.Options.EmailServiceOptions.html#CG_Email_Options_EmailServiceOptions__ctor
-  commentId: M:CG.Email.Options.EmailServiceOptions.#ctor
-  fullName: CG.Email.Options.EmailServiceOptions.EmailServiceOptions()
-  nameWithType: EmailServiceOptions.EmailServiceOptions()
-- uid: CG.Email.Options.EmailServiceOptions.#ctor*
-  name: EmailServiceOptions
-  href: api/CG.Email.Options.EmailServiceOptions.html#CG_Email_Options_EmailServiceOptions__ctor_
-  commentId: Overload:CG.Email.Options.EmailServiceOptions.#ctor
-  isSpec: "True"
-  fullName: CG.Email.Options.EmailServiceOptions.EmailServiceOptions
-  nameWithType: EmailServiceOptions.EmailServiceOptions
-- uid: CG.Email.Options.EmailServiceOptions.Strategy
-  name: Strategy
-  href: api/CG.Email.Options.EmailServiceOptions.html#CG_Email_Options_EmailServiceOptions_Strategy
-  commentId: P:CG.Email.Options.EmailServiceOptions.Strategy
-  fullName: CG.Email.Options.EmailServiceOptions.Strategy
-  nameWithType: EmailServiceOptions.Strategy
-- uid: CG.Email.Options.EmailServiceOptions.Strategy*
-  name: Strategy
-  href: api/CG.Email.Options.EmailServiceOptions.html#CG_Email_Options_EmailServiceOptions_Strategy_
-  commentId: Overload:CG.Email.Options.EmailServiceOptions.Strategy
-  isSpec: "True"
-  fullName: CG.Email.Options.EmailServiceOptions.Strategy
-  nameWithType: EmailServiceOptions.Strategy
 - uid: CG.Email.Strategies
   name: CG.Email.Strategies
   href: api/CG.Email.Strategies.html
@@ -430,103 +345,102 @@ references:
   commentId: T:CG.Email.Strategies.Options.EmailStrategyOptions
   fullName: CG.Email.Strategies.Options.EmailStrategyOptions
   nameWithType: EmailStrategyOptions
-- uid: CG.Email.Strategies.Options.EmailStrategyOptions.Assembly
-  name: Assembly
-  href: api/CG.Email.Strategies.Options.EmailStrategyOptions.html#CG_Email_Strategies_Options_EmailStrategyOptions_Assembly
-  commentId: P:CG.Email.Strategies.Options.EmailStrategyOptions.Assembly
-  fullName: CG.Email.Strategies.Options.EmailStrategyOptions.Assembly
-  nameWithType: EmailStrategyOptions.Assembly
-- uid: CG.Email.Strategies.Options.EmailStrategyOptions.Assembly*
-  name: Assembly
-  href: api/CG.Email.Strategies.Options.EmailStrategyOptions.html#CG_Email_Strategies_Options_EmailStrategyOptions_Assembly_
-  commentId: Overload:CG.Email.Strategies.Options.EmailStrategyOptions.Assembly
-  isSpec: "True"
-  fullName: CG.Email.Strategies.Options.EmailStrategyOptions.Assembly
-  nameWithType: EmailStrategyOptions.Assembly
-- uid: CG.Email.Strategies.Options.EmailStrategyOptions.Name
-  name: Name
-  href: api/CG.Email.Strategies.Options.EmailStrategyOptions.html#CG_Email_Strategies_Options_EmailStrategyOptions_Name
-  commentId: P:CG.Email.Strategies.Options.EmailStrategyOptions.Name
-  fullName: CG.Email.Strategies.Options.EmailStrategyOptions.Name
-  nameWithType: EmailStrategyOptions.Name
-- uid: CG.Email.Strategies.Options.EmailStrategyOptions.Name*
-  name: Name
-  href: api/CG.Email.Strategies.Options.EmailStrategyOptions.html#CG_Email_Strategies_Options_EmailStrategyOptions_Name_
-  commentId: Overload:CG.Email.Strategies.Options.EmailStrategyOptions.Name
-  isSpec: "True"
-  fullName: CG.Email.Strategies.Options.EmailStrategyOptions.Name
-  nameWithType: EmailStrategyOptions.Name
-- uid: CG.Email.Strategies.SmtpEmailStrategyOptions
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions
   name: SmtpEmailStrategyOptions
-  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html
-  commentId: T:CG.Email.Strategies.SmtpEmailStrategyOptions
-  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html
+  commentId: T:CG.Email.Strategies.Options.SmtpEmailStrategyOptions
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions
   nameWithType: SmtpEmailStrategyOptions
-- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.#ctor
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.#ctor
   name: SmtpEmailStrategyOptions()
-  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions__ctor
-  commentId: M:CG.Email.Strategies.SmtpEmailStrategyOptions.#ctor
-  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.SmtpEmailStrategyOptions()
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions__ctor
+  commentId: M:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.#ctor
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.SmtpEmailStrategyOptions()
   nameWithType: SmtpEmailStrategyOptions.SmtpEmailStrategyOptions()
-- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.#ctor*
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.#ctor*
   name: SmtpEmailStrategyOptions
-  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions__ctor_
-  commentId: Overload:CG.Email.Strategies.SmtpEmailStrategyOptions.#ctor
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions__ctor_
+  commentId: Overload:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.#ctor
   isSpec: "True"
-  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.SmtpEmailStrategyOptions
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.SmtpEmailStrategyOptions
   nameWithType: SmtpEmailStrategyOptions.SmtpEmailStrategyOptions
-- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.Password
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Password
   name: Password
-  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_Password
-  commentId: P:CG.Email.Strategies.SmtpEmailStrategyOptions.Password
-  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.Password
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_Password
+  commentId: P:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Password
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Password
   nameWithType: SmtpEmailStrategyOptions.Password
-- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.Password*
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Password*
   name: Password
-  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_Password_
-  commentId: Overload:CG.Email.Strategies.SmtpEmailStrategyOptions.Password
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_Password_
+  commentId: Overload:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Password
   isSpec: "True"
-  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.Password
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Password
   nameWithType: SmtpEmailStrategyOptions.Password
-- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerAddress
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.ServerAddress
   name: ServerAddress
-  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_ServerAddress
-  commentId: P:CG.Email.Strategies.SmtpEmailStrategyOptions.ServerAddress
-  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerAddress
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_ServerAddress
+  commentId: P:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.ServerAddress
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.ServerAddress
   nameWithType: SmtpEmailStrategyOptions.ServerAddress
-- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerAddress*
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.ServerAddress*
   name: ServerAddress
-  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_ServerAddress_
-  commentId: Overload:CG.Email.Strategies.SmtpEmailStrategyOptions.ServerAddress
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_ServerAddress_
+  commentId: Overload:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.ServerAddress
   isSpec: "True"
-  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerAddress
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.ServerAddress
   nameWithType: SmtpEmailStrategyOptions.ServerAddress
-- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerPort
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.ServerPort
   name: ServerPort
-  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_ServerPort
-  commentId: P:CG.Email.Strategies.SmtpEmailStrategyOptions.ServerPort
-  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerPort
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_ServerPort
+  commentId: P:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.ServerPort
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.ServerPort
   nameWithType: SmtpEmailStrategyOptions.ServerPort
-- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerPort*
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.ServerPort*
   name: ServerPort
-  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_ServerPort_
-  commentId: Overload:CG.Email.Strategies.SmtpEmailStrategyOptions.ServerPort
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_ServerPort_
+  commentId: Overload:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.ServerPort
   isSpec: "True"
-  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.ServerPort
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.ServerPort
   nameWithType: SmtpEmailStrategyOptions.ServerPort
-- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.UserName
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.UserName
   name: UserName
-  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_UserName
-  commentId: P:CG.Email.Strategies.SmtpEmailStrategyOptions.UserName
-  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.UserName
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_UserName
+  commentId: P:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.UserName
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.UserName
   nameWithType: SmtpEmailStrategyOptions.UserName
-- uid: CG.Email.Strategies.SmtpEmailStrategyOptions.UserName*
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.UserName*
   name: UserName
-  href: api/CG.Email.Strategies.SmtpEmailStrategyOptions.html#CG_Email_Strategies_SmtpEmailStrategyOptions_UserName_
-  commentId: Overload:CG.Email.Strategies.SmtpEmailStrategyOptions.UserName
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_UserName_
+  commentId: Overload:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.UserName
   isSpec: "True"
-  fullName: CG.Email.Strategies.SmtpEmailStrategyOptions.UserName
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.UserName
   nameWithType: SmtpEmailStrategyOptions.UserName
+- uid: CG.Email.Strategies.Smtp
+  name: CG.Email.Strategies.Smtp
+  href: api/CG.Email.Strategies.Smtp.html
+  commentId: N:CG.Email.Strategies.Smtp
+  fullName: CG.Email.Strategies.Smtp
+  nameWithType: CG.Email.Strategies.Smtp
+- uid: CG.Email.Strategies.Smtp.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  href: api/CG.Email.Strategies.Smtp.ServiceCollectionExtensions.html
+  commentId: T:CG.Email.Strategies.Smtp.ServiceCollectionExtensions
+  fullName: CG.Email.Strategies.Smtp.ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+- uid: CG.Email.Strategies.Smtp.ServiceCollectionExtensions.AddSmtpStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddSmtpStrategies(IServiceCollection, IConfiguration)
+  href: api/CG.Email.Strategies.Smtp.ServiceCollectionExtensions.html#CG_Email_Strategies_Smtp_ServiceCollectionExtensions_AddSmtpStrategies_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:CG.Email.Strategies.Smtp.ServiceCollectionExtensions.AddSmtpStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: CG.Email.Strategies.Smtp.ServiceCollectionExtensions.AddSmtpStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: ServiceCollectionExtensions.AddSmtpStrategies(IServiceCollection, IConfiguration)
+- uid: CG.Email.Strategies.Smtp.ServiceCollectionExtensions.AddSmtpStrategies*
+  name: AddSmtpStrategies
+  href: api/CG.Email.Strategies.Smtp.ServiceCollectionExtensions.html#CG_Email_Strategies_Smtp_ServiceCollectionExtensions_AddSmtpStrategies_
+  commentId: Overload:CG.Email.Strategies.Smtp.ServiceCollectionExtensions.AddSmtpStrategies
+  isSpec: "True"
+  fullName: CG.Email.Strategies.Smtp.ServiceCollectionExtensions.AddSmtpStrategies
+  nameWithType: ServiceCollectionExtensions.AddSmtpStrategies
 - uid: Microsoft.Extensions.DependencyInjection
   name: Microsoft.Extensions.DependencyInjection
   href: api/Microsoft.Extensions.DependencyInjection.html
@@ -545,15 +459,6 @@ references:
   commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
   fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
   nameWithType: ServiceCollectionExtensions.AddEmail(IServiceCollection, IConfiguration)
-- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{CG.Email.Builders.IEmailStrategyBuilder})
-  name: AddEmail(IServiceCollection, Action<IEmailStrategyBuilder>)
-  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddEmail_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_CG_Email_Builders_IEmailStrategyBuilder__
-  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{CG.Email.Builders.IEmailStrategyBuilder})
-  name.vb: AddEmail(IServiceCollection, Action(Of IEmailStrategyBuilder))
-  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<CG.Email.Builders.IEmailStrategyBuilder>)
-  fullName.vb: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of CG.Email.Builders.IEmailStrategyBuilder))
-  nameWithType: ServiceCollectionExtensions.AddEmail(IServiceCollection, Action<IEmailStrategyBuilder>)
-  nameWithType.vb: ServiceCollectionExtensions.AddEmail(IServiceCollection, Action(Of IEmailStrategyBuilder))
 - uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail*
   name: AddEmail
   href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddEmail_
