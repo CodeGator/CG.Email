@@ -422,6 +422,25 @@ references:
   commentId: N:CG.Email.Strategies.Smtp
   fullName: CG.Email.Strategies.Smtp
   nameWithType: CG.Email.Strategies.Smtp
+- uid: CG.Email.Strategies.Smtp.ApplicationBuilderExtensions
+  name: ApplicationBuilderExtensions
+  href: api/CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.html
+  commentId: T:CG.Email.Strategies.Smtp.ApplicationBuilderExtensions
+  fullName: CG.Email.Strategies.Smtp.ApplicationBuilderExtensions
+  nameWithType: ApplicationBuilderExtensions
+- uid: CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpStrategies(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  name: UseSmtpStrategies(IApplicationBuilder, IWebHostEnvironment)
+  href: api/CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.html#CG_Email_Strategies_Smtp_ApplicationBuilderExtensions_UseSmtpStrategies_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_
+  commentId: M:CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpStrategies(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  fullName: CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpStrategies(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  nameWithType: ApplicationBuilderExtensions.UseSmtpStrategies(IApplicationBuilder, IWebHostEnvironment)
+- uid: CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpStrategies*
+  name: UseSmtpStrategies
+  href: api/CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.html#CG_Email_Strategies_Smtp_ApplicationBuilderExtensions_UseSmtpStrategies_
+  commentId: Overload:CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpStrategies
+  isSpec: "True"
+  fullName: CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpStrategies
+  nameWithType: ApplicationBuilderExtensions.UseSmtpStrategies
 - uid: CG.Email.Strategies.Smtp.ServiceCollectionExtensions
   name: ServiceCollectionExtensions
   href: api/CG.Email.Strategies.Smtp.ServiceCollectionExtensions.html
