@@ -377,6 +377,19 @@ references:
   isSpec: "True"
   fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.DeliveryMethod
   nameWithType: SmtpEmailStrategyOptions.DeliveryMethod
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.EnableSSL
+  name: EnableSSL
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_EnableSSL
+  commentId: P:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.EnableSSL
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.EnableSSL
+  nameWithType: SmtpEmailStrategyOptions.EnableSSL
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.EnableSSL*
+  name: EnableSSL
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_EnableSSL_
+  commentId: Overload:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.EnableSSL
+  isSpec: "True"
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.EnableSSL
+  nameWithType: SmtpEmailStrategyOptions.EnableSSL
 - uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Password
   name: Password
   href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_Password
@@ -416,6 +429,19 @@ references:
   isSpec: "True"
   fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.ServerPort
   nameWithType: SmtpEmailStrategyOptions.ServerPort
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Timeout
+  name: Timeout
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_Timeout
+  commentId: P:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Timeout
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Timeout
+  nameWithType: SmtpEmailStrategyOptions.Timeout
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Timeout*
+  name: Timeout
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_Timeout_
+  commentId: Overload:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Timeout
+  isSpec: "True"
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Timeout
+  nameWithType: SmtpEmailStrategyOptions.Timeout
 - uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.UserName
   name: UserName
   href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_UserName

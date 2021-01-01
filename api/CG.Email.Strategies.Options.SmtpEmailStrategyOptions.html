@@ -149,7 +149,7 @@ class.</p>
   </h3>
   <a id="CG_Email_Strategies_Options_SmtpEmailStrategyOptions_DeliveryMethod_" data-uid="CG.Email.Strategies.Options.SmtpEmailStrategyOptions.DeliveryMethod*"></a>
   <h4 id="CG_Email_Strategies_Options_SmtpEmailStrategyOptions_DeliveryMethod" data-uid="CG.Email.Strategies.Options.SmtpEmailStrategyOptions.DeliveryMethod">DeliveryMethod</h4>
-  <div class="markdown level1 summary"><p>This property contains a delivery method for the email account.</p>
+  <div class="markdown level1 summary"><p>This property contains a delivery method for the SMTP operations.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -167,6 +167,30 @@ class.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Net.Mail.SmtpDeliveryMethod</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_Email_Strategies_Options_SmtpEmailStrategyOptions_EnableSSL_" data-uid="CG.Email.Strategies.Options.SmtpEmailStrategyOptions.EnableSSL*"></a>
+  <h4 id="CG_Email_Strategies_Options_SmtpEmailStrategyOptions_EnableSSL" data-uid="CG.Email.Strategies.Options.SmtpEmailStrategyOptions.EnableSSL">EnableSSL</h4>
+  <div class="markdown level1 summary"><p>This property indicates whether SSL should be used for SMTP operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EnableSSL { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -241,6 +265,30 @@ public string ServerAddress { get; set; }</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_Email_Strategies_Options_SmtpEmailStrategyOptions_Timeout_" data-uid="CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Timeout*"></a>
+  <h4 id="CG_Email_Strategies_Options_SmtpEmailStrategyOptions_Timeout" data-uid="CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Timeout">Timeout</h4>
+  <div class="markdown level1 summary"><p>This property contains a timeout for the SMTP operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Timeout { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
