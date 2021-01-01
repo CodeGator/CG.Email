@@ -42,9 +42,19 @@ namespace CG.Email.Strategies.Options
         public string Password { get; set; }
 
         /// <summary>
-        /// This property contains a delivery method for the email account.
+        /// This property contains a delivery method for the SMTP operations.
         /// </summary>
         public SmtpDeliveryMethod? DeliveryMethod { get; set; }
+
+        /// <summary>
+        /// This property contains a timeout for the SMTP operations.
+        /// </summary>
+        public int? Timeout { get; set; }
+
+        /// <summary>
+        /// This property indicates whether SSL should be used for SMTP operations.
+        /// </summary>
+        public bool EnableSSL { get; set; }
 
         #endregion
 

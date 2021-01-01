@@ -137,6 +137,15 @@ namespace CG.Email.Strategies.Smtp
                 Client.DeliveryMethod = Options.Value.DeliveryMethod.Value;
             }
 
+            // Should we apply a timeout?
+            if (null != Options.Value.Timeout)
+            {
+                Client.Timeout = Options.Value.Timeout.Value;
+            }
+
+            // Apply SSL, or not.
+            Client.EnableSsl = Options.Value.EnableSSL;
+
             // Send the message.
             Client.Send(message);
 
