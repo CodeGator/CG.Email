@@ -364,6 +364,19 @@ references:
   isSpec: "True"
   fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.SmtpEmailStrategyOptions
   nameWithType: SmtpEmailStrategyOptions.SmtpEmailStrategyOptions
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.DeliveryMethod
+  name: DeliveryMethod
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_DeliveryMethod
+  commentId: P:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.DeliveryMethod
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.DeliveryMethod
+  nameWithType: SmtpEmailStrategyOptions.DeliveryMethod
+- uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.DeliveryMethod*
+  name: DeliveryMethod
+  href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_DeliveryMethod_
+  commentId: Overload:CG.Email.Strategies.Options.SmtpEmailStrategyOptions.DeliveryMethod
+  isSpec: "True"
+  fullName: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.DeliveryMethod
+  nameWithType: SmtpEmailStrategyOptions.DeliveryMethod
 - uid: CG.Email.Strategies.Options.SmtpEmailStrategyOptions.Password
   name: Password
   href: api/CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html#CG_Email_Strategies_Options_SmtpEmailStrategyOptions_Password
