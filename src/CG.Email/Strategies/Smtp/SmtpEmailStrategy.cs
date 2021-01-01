@@ -131,6 +131,12 @@ namespace CG.Email.Strategies.Smtp
                 }
             }
 
+            // Should we apply a delivery method?
+            if (null != Options.Value.DeliveryMethod)
+            {
+                Client.DeliveryMethod = Options.Value.DeliveryMethod.Value;
+            }
+
             // Send the message.
             Client.Send(message);
 

@@ -2,6 +2,7 @@
 using CG.Options;
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Net.Mail;
 
 namespace CG.Email.Strategies.Options
 {
@@ -39,6 +40,11 @@ namespace CG.Email.Strategies.Options
         /// </summary>
         [ProtectedProperty]
         public string Password { get; set; }
+
+        /// <summary>
+        /// This property contains a delivery method for the email account.
+        /// </summary>
+        public SmtpDeliveryMethod? DeliveryMethod { get; set; }
 
         #endregion
 

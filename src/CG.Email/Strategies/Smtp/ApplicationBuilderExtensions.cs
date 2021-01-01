@@ -35,7 +35,7 @@ namespace CG.Email.Strategies.Smtp
             Guard.Instance().ThrowIfNull(applicationBuilder, nameof(applicationBuilder))
                 .ThrowIfNull(hostEnvironment, nameof(hostEnvironment));
 
-            // TODO : add code here, as needed.
+            // TODO : Nothing needed here, for SMTP
 
             // Return the applicationn builder.
             return applicationBuilder;
