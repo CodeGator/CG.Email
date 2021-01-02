@@ -40,20 +40,15 @@ namespace CG.Email.Strategies.Smtp
             Guard.Instance().ThrowIfNull(serviceCollection, nameof(serviceCollection))
                 .ThrowIfNull(configuration, nameof(configuration));
 
-            Console.WriteLine("Entering AddSmtpStrategies");
-
             // Configure the strategy options.
-            Console.WriteLine("Configuring options");
             serviceCollection.ConfigureOptions<SmtpEmailStrategyOptions>(
                 configuration
                 );
 
             // Register the strategy.
-            Console.WriteLine("Registering the SMTP strategy");
             serviceCollection.AddTransient<IEmailStrategy, SmtpEmailStrategy>();
 
             // Return the service collection.
-            Console.WriteLine("Leaving AddSmtpStrategies");
             return serviceCollection;
         }
 
