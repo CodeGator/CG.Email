@@ -26,13 +26,15 @@ namespace Microsoft.Extensions.DependencyInjection
         /// <param name="serviceCollection">The service collection to use for 
         /// the operation.</param>
         /// <param name="configuration">the configuration to use for the operation.</param>
+        /// <param name="serviceLifetime">The service lifetime to use for the operation.</param>
         /// <returns>A <see cref="IServiceCollection"/> object for building up
         /// an strategies for the service.</returns>
         /// <exception cref="ArgumentException">This exception is thrown whenever
         /// a required argument is missing or invalid.</exception>
         public static IServiceCollection AddEmail(
             this IServiceCollection serviceCollection,
-            IConfiguration configuration
+            IConfiguration configuration,
+            ServiceLifetime serviceLifetime = ServiceLifetime.Scoped
             )
         {
             // Validate the parameters before attempting to use them.
@@ -40,10 +42,24 @@ namespace Microsoft.Extensions.DependencyInjection
                 .ThrowIfNull(configuration, nameof(configuration));
 
             // Register the service.
-            serviceCollection.AddTransient<IEmailService, EmailService>();
+            switch (serviceLifetime)
+            {
+                case ServiceLifetime.Singleton:
+                    serviceCollection.AddSingleton<IEmailService, EmailService>();
+                    break;
+                case ServiceLifetime.Scoped:
+                    serviceCollection.AddScoped<IEmailService, EmailService>();
+                    break;
+                case ServiceLifetime.Transient:
+                    serviceCollection.AddTransient<IEmailService, EmailService>();
+                    break;
+            }
 
             // Register the strategy(s).
-            serviceCollection.AddStrategies(configuration);
+            serviceCollection.AddStrategies(
+                configuration,
+                serviceLifetime
+                );
 
             // Return the service collection.
             return serviceCollection;
