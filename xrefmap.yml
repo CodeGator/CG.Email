@@ -13,12 +13,12 @@ references:
   commentId: T:CG.Email.ApplicationBuilderExtensions
   fullName: CG.Email.ApplicationBuilderExtensions
   nameWithType: ApplicationBuilderExtensions
-- uid: CG.Email.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
-  name: UseEmail(IApplicationBuilder, IWebHostEnvironment)
-  href: api/CG.Email.ApplicationBuilderExtensions.html#CG_Email_ApplicationBuilderExtensions_UseEmail_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_
-  commentId: M:CG.Email.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
-  fullName: CG.Email.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
-  nameWithType: ApplicationBuilderExtensions.UseEmail(IApplicationBuilder, IWebHostEnvironment)
+- uid: CG.Email.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,System.String)
+  name: UseEmail(IApplicationBuilder, IWebHostEnvironment, String)
+  href: api/CG.Email.ApplicationBuilderExtensions.html#CG_Email_ApplicationBuilderExtensions_UseEmail_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_System_String_
+  commentId: M:CG.Email.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,System.String)
+  fullName: CG.Email.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, System.String)
+  nameWithType: ApplicationBuilderExtensions.UseEmail(IApplicationBuilder, IWebHostEnvironment, String)
 - uid: CG.Email.ApplicationBuilderExtensions.UseEmail*
   name: UseEmail
   href: api/CG.Email.ApplicationBuilderExtensions.html#CG_Email_ApplicationBuilderExtensions_UseEmail_
