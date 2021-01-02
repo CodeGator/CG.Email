@@ -486,12 +486,12 @@ references:
   commentId: T:CG.Email.Strategies.Smtp.ServiceCollectionExtensions
   fullName: CG.Email.Strategies.Smtp.ServiceCollectionExtensions
   nameWithType: ServiceCollectionExtensions
-- uid: CG.Email.Strategies.Smtp.ServiceCollectionExtensions.AddSmtpStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
-  name: AddSmtpStrategies(IServiceCollection, IConfiguration)
-  href: api/CG.Email.Strategies.Smtp.ServiceCollectionExtensions.html#CG_Email_Strategies_Smtp_ServiceCollectionExtensions_AddSmtpStrategies_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
-  commentId: M:CG.Email.Strategies.Smtp.ServiceCollectionExtensions.AddSmtpStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
-  fullName: CG.Email.Strategies.Smtp.ServiceCollectionExtensions.AddSmtpStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
-  nameWithType: ServiceCollectionExtensions.AddSmtpStrategies(IServiceCollection, IConfiguration)
+- uid: CG.Email.Strategies.Smtp.ServiceCollectionExtensions.AddSmtpStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name: AddSmtpStrategies(IServiceCollection, IConfiguration, ServiceLifetime)
+  href: api/CG.Email.Strategies.Smtp.ServiceCollectionExtensions.html#CG_Email_Strategies_Smtp_ServiceCollectionExtensions_AddSmtpStrategies_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
+  commentId: M:CG.Email.Strategies.Smtp.ServiceCollectionExtensions.AddSmtpStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  fullName: CG.Email.Strategies.Smtp.ServiceCollectionExtensions.AddSmtpStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType: ServiceCollectionExtensions.AddSmtpStrategies(IServiceCollection, IConfiguration, ServiceLifetime)
 - uid: CG.Email.Strategies.Smtp.ServiceCollectionExtensions.AddSmtpStrategies*
   name: AddSmtpStrategies
   href: api/CG.Email.Strategies.Smtp.ServiceCollectionExtensions.html#CG_Email_Strategies_Smtp_ServiceCollectionExtensions_AddSmtpStrategies_
