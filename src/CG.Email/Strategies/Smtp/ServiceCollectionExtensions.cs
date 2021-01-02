@@ -29,11 +29,13 @@ namespace CG.Email.Strategies.Smtp
         /// <param name="serviceCollection">The service collection to use for
         /// the operation.</param>
         /// <param name="configuration">The configuration to use for the operation.</param>
+        /// <param name="serviceLifetime">The service lifetime to use for the operation.</param>
         /// <returns>The value of the <paramref name="serviceCollection"/> 
         /// parameter, for chaining calls together.</returns>
         public static IServiceCollection AddSmtpStrategies(
             this IServiceCollection serviceCollection,
-            IConfiguration configuration
+            IConfiguration configuration,
+            ServiceLifetime serviceLifetime = ServiceLifetime.Scoped
             )
         {
             // Validate the parameters before attempting to use them.
@@ -46,8 +48,19 @@ namespace CG.Email.Strategies.Smtp
                 );
 
             // Register the strategy.
-            serviceCollection.AddTransient<IEmailStrategy, SmtpEmailStrategy>();
-
+            switch (serviceLifetime)
+            {
+                case ServiceLifetime.Scoped:
+                    serviceCollection.AddScoped<IEmailStrategy, SmtpEmailStrategy>();
+                    break;
+                case ServiceLifetime.Singleton:
+                    serviceCollection.AddSingleton<IEmailStrategy, SmtpEmailStrategy>();
+                    break;
+                case ServiceLifetime.Transient:
+                    serviceCollection.AddTransient<IEmailStrategy, SmtpEmailStrategy>();
+                    break;
+            }
+                                    
             // Return the service collection.
             return serviceCollection;
         }
