@@ -2,8 +2,11 @@
 using CG.Email.Properties;
 using CG.Email.Strategies.Options;
 using CG.Validations;
+using Microsoft.AspNetCore.Routing.Tree;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using System;
 
 namespace CG.Email.Strategies.Smtp
 {
@@ -37,37 +40,20 @@ namespace CG.Email.Strategies.Smtp
             Guard.Instance().ThrowIfNull(serviceCollection, nameof(serviceCollection))
                 .ThrowIfNull(configuration, nameof(configuration));
 
-            // We should be pointed to the Smtp section, but, just in case,
-            //   let's do one more check. We're doing this here because
-            //   configuration bugs are difficult and frustrating to
-            //   troubleshoot, so, we want to provide as much feedback
-            //   as is practical to the caller.
-
-            // Get the path.
-            var path = configuration.GetPath();
-
-            // Are we not pointed to smtp section?
-            if (false == path.EndsWith("Smtp"))
-            {
-                // Panic!
-                throw new ConfigurationException(
-                    message: string.Format(
-                        Resources.NotSmtpSection,
-                        nameof(AddSmtpStrategies),
-                        path
-                        )
-                    );
-            }
+            Console.WriteLine("Entering AddSmtpStrategies");
 
             // Configure the strategy options.
+            Console.WriteLine("Configuring options");
             serviceCollection.ConfigureOptions<SmtpEmailStrategyOptions>(
                 configuration
                 );
 
             // Register the strategy.
-            serviceCollection.AddSingleton<IEmailStrategy, SmtpEmailStrategy>();
+            Console.WriteLine("Registering the SMTP strategy");
+            serviceCollection.AddTransient<IEmailStrategy, SmtpEmailStrategy>();
 
             // Return the service collection.
+            Console.WriteLine("Leaving AddSmtpStrategies");
             return serviceCollection;
         }
 

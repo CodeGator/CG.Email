@@ -39,49 +39,8 @@ namespace Microsoft.Extensions.DependencyInjection
             Guard.Instance().ThrowIfNull(serviceCollection, nameof(serviceCollection))
                 .ThrowIfNull(configuration, nameof(configuration));
 
-            // Check the configuration path, just in case we need to adjust it, to 
-            //   work with this method.
-
-            // Get the path for the current section.
-            var path = configuration.GetPath();
-
-            // Were we called with the configuration root?
-            if (true == string.IsNullOrEmpty(path))
-            {
-                // Point to the proper configuration section.
-                configuration = configuration.GetSection("Services:Email");
-
-                // Get the new path.
-                path = configuration.GetPath();
-            }
-            else if (false == path.EndsWith("Email"))
-            {
-                // Point to the proper configuration section.
-                configuration = configuration.GetSection("Email");
-
-                // Get the new path.
-                path = configuration.GetPath();
-            }
-
-            // Now we should be pointed to the email section, but, just in case, 
-            //   let's do one more check. We're doing this here because configuration
-            //   bugs are difficult and frustrating to troubleshoot, so, we want to 
-            //   provide as much feedback as is practical to the caller.
-
-            if (false == path.EndsWith("Email"))
-            {
-                // Panic!
-                throw new ConfigurationException(
-                    message: string.Format(
-                        Resources.NotEmailSection,
-                        nameof(AddEmail),
-                        path
-                        )
-                    );
-            }
-
             // Register the service.
-            serviceCollection.AddSingleton<IEmailService, EmailService>();
+            serviceCollection.AddTransient<IEmailService, EmailService>();
 
             // Register the strategy(s).
             serviceCollection.AddStrategies(configuration);
