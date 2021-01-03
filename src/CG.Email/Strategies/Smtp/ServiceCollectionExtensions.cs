@@ -1,12 +1,12 @@
-﻿using CG.Configuration;
-using CG.Email.Properties;
-using CG.Email.Strategies.Options;
+﻿using CG.Email.Strategies.Options;
 using CG.Validations;
-using Microsoft.AspNetCore.Routing.Tree;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using System;
+using System.Linq;
+using System.Net;
+using System.Net.Mail;
 
 namespace CG.Email.Strategies.Smtp
 {
@@ -47,20 +47,75 @@ namespace CG.Email.Strategies.Smtp
                 configuration
                 );
 
-            // Register the strategy.
+            // Create a common delegate for the SMTP client.
+            Func<IServiceProvider, SmtpClient> CCD = (serviceProvider) =>
+            {
+                // Get the client options.
+                var options = serviceProvider
+                    .GetRequiredService<IOptions<SmtpEmailStrategyOptions>>();
+
+                // Create the SMTP client.
+                var client = new SmtpClient(
+                    options.Value.ServerAddress,
+                    options.Value.ServerPort
+                    );
+
+                // Decide what credentials to use.
+                if (!string.IsNullOrWhiteSpace(options.Value.UserName) &&
+                    !string.IsNullOrWhiteSpace(options.Value.Password)
+                    )
+                {
+                    // Don't use default credentials.
+                    client.UseDefaultCredentials = false;
+
+                    // Use these credentials instead.
+                    client.Credentials = new NetworkCredential(
+                        options.Value.UserName,
+                        options.Value.Password
+                        );
+                }
+                else
+                {
+                    // Use default credentials.
+                    client.UseDefaultCredentials = true;
+                }
+
+                // Should we apply a delivery method?
+                if (null != options.Value.DeliveryMethod)
+                {
+                    client.DeliveryMethod = options.Value.DeliveryMethod.Value;
+                }
+
+                // Should we apply a timeout?
+                if (null != options.Value.Timeout)
+                {
+                    client.Timeout = options.Value.Timeout.Value;
+                }
+
+                // Apply SSL, or not.
+                client.EnableSsl = options.Value.EnableSSL;
+
+                // Return the SMTP client.
+                return client;
+            };
+
+            // Register the strategy and the client.
             switch (serviceLifetime)
             {
                 case ServiceLifetime.Scoped:
+                    serviceCollection.AddScoped(serviceProvider => CCD(serviceProvider));
                     serviceCollection.AddScoped<IEmailStrategy, SmtpEmailStrategy>();
                     break;
                 case ServiceLifetime.Singleton:
+                    serviceCollection.AddSingleton(serviceProvider => CCD(serviceProvider));
                     serviceCollection.AddSingleton<IEmailStrategy, SmtpEmailStrategy>();
                     break;
                 case ServiceLifetime.Transient:
+                    serviceCollection.AddTransient(serviceProvider => CCD(serviceProvider));
                     serviceCollection.AddTransient<IEmailStrategy, SmtpEmailStrategy>();
                     break;
             }
-                                    
+
             // Return the service collection.
             return serviceCollection;
         }

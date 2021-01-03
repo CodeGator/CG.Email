@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
-using System.Net;
 using System.Net.Mail;
 using System.Threading;
 using System.Threading.Tasks;
@@ -12,7 +11,7 @@ namespace CG.Email.Strategies.Smtp
     /// <summary>
     /// This class is an SMTP implementation of <see cref="IEmailStrategy{TOptions}"/>
     /// </summary>
-    internal class SmtpEmailStrategy : 
+    public class SmtpEmailStrategy : 
         EmailStrategyBase<SmtpEmailStrategyOptions>, 
         IEmailStrategy<SmtpEmailStrategyOptions>
     {
@@ -40,8 +39,10 @@ namespace CG.Email.Strategies.Smtp
         /// class.
         /// </summary>
         /// <param name="options">The options to use for the operation.</param>
+        /// <param name="client">The SMTP client to use for the operation.</param>
         public SmtpEmailStrategy(
-            IOptions<SmtpEmailStrategyOptions> options
+            IOptions<SmtpEmailStrategyOptions> options,
+            SmtpClient client
             ) : base(options)
         {
 
@@ -91,60 +92,6 @@ namespace CG.Email.Strategies.Smtp
                 body,
                 bodyIsHtml
                 );
-
-            // Should we create a client?
-            if (Client == null)
-            {
-                // Get the address from the options.
-                var address = Options.Value.ServerAddress;
-
-                // Get the port from the options.
-                var port = Options.Value.ServerPort;
-
-                // Get the user name from the options.
-                var userName = Options.Value.UserName;
-
-                // Get the password from the options.
-                var password = Options.Value.Password;
-
-                // Create the SMTP client.
-                Client = new SmtpClient(address, port);
-
-                // Decide what credentials to use.
-                if (!string.IsNullOrWhiteSpace(userName) &&
-                    !string.IsNullOrWhiteSpace(password)
-                    )
-                {
-                    // Don't use default credentials.
-                    Client.UseDefaultCredentials = false;
-
-                    // Use these credentials instead.
-                    Client.Credentials = new NetworkCredential(
-                        userName,
-                        password
-                        );
-                }
-                else
-                {
-                    // Use default credentials.
-                    Client.UseDefaultCredentials = true;
-                }
-            }
-
-            // Should we apply a delivery method?
-            if (null != Options.Value.DeliveryMethod)
-            {
-                Client.DeliveryMethod = Options.Value.DeliveryMethod.Value;
-            }
-
-            // Should we apply a timeout?
-            if (null != Options.Value.Timeout)
-            {
-                Client.Timeout = Options.Value.Timeout.Value;
-            }
-
-            // Apply SSL, or not.
-            Client.EnableSsl = Options.Value.EnableSSL;
 
             // Send the message.
             Client.Send(message);
