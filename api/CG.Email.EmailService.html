@@ -204,7 +204,7 @@ otherwise.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;EmailResult&gt; SendAsync(string fromAddress, IEnumerable&lt;string&gt; toAddresses, IEnumerable&lt;string&gt; ccAddresses, IEnumerable&lt;string&gt; bccAddresses, IEnumerable&lt;string&gt; attachments, string subject, string body, bool bodyIsHtml = false, CancellationToken token = default(CancellationToken))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;EmailResult&gt;&gt; SendAsync(string fromAddress, IEnumerable&lt;string&gt; toAddresses, IEnumerable&lt;string&gt; ccAddresses, IEnumerable&lt;string&gt; bccAddresses, IEnumerable&lt;string&gt; attachments, string subject, string body, bool bodyIsHtml = false, CancellationToken token = default(CancellationToken))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -282,7 +282,7 @@ otherwise.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="CG.Email.EmailResult.html">EmailResult</a>&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="CG.Email.EmailResult.html">EmailResult</a>&gt;&gt;</td>
         <td><p>A task to perform the operation.</p>
 </td>
       </tr>

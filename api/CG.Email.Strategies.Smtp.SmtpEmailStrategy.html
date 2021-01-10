@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EmailStrategyBase
+    <title>Class SmtpEmailStrategy
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EmailStrategyBase
+    <meta name="title" content="Class SmtpEmailStrategy
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -78,12 +78,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CG.Email.Strategies.EmailStrategyBase">
+            <article class="content wrap" id="_content" data-uid="CG.Email.Strategies.Smtp.SmtpEmailStrategy">
   
   
-  <h1 id="CG_Email_Strategies_EmailStrategyBase" data-uid="CG.Email.Strategies.EmailStrategyBase" class="text-break">Class EmailStrategyBase
+  <h1 id="CG_Email_Strategies_Smtp_SmtpEmailStrategy" data-uid="CG.Email.Strategies.Smtp.SmtpEmailStrategy" class="text-break">Class SmtpEmailStrategy
   </h1>
-  <div class="markdown level0 summary"><p>This class is a base implementation of <a class="xref" href="CG.Email.Strategies.IEmailStrategy.html">IEmailStrategy</a></p>
+  <div class="markdown level0 summary"><p>This class is an SMTP implementation of <a class="xref" href="CG.Email.Strategies.IEmailStrategy-1.html">IEmailStrategy&lt;TOptions&gt;</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -91,21 +91,24 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">CG.DisposableBase</span></div>
     <div class="level2"><span class="xref">CG.Business.Strategies.StrategyBase</span></div>
-    <div class="level3"><span class="xref">EmailStrategyBase</span></div>
-      <div class="level4"><a class="xref" href="CG.Email.Strategies.DoNothing.DoNothingEmailStrategy.html">DoNothingEmailStrategy</a></div>
+    <div class="level3"><span class="xref">CG.Business.Strategies.StrategyBase</span>&lt;<a class="xref" href="CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html">SmtpEmailStrategyOptions</a>&gt;</div>
+    <div class="level4"><a class="xref" href="CG.Email.Strategies.EmailStrategyBase-1.html">EmailStrategyBase</a>&lt;<a class="xref" href="CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html">SmtpEmailStrategyOptions</a>&gt;</div>
+    <div class="level5"><span class="xref">SmtpEmailStrategy</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><a class="xref" href="CG.Email.Strategies.IEmailStrategy-1.html">IEmailStrategy</a>&lt;<a class="xref" href="CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html">SmtpEmailStrategyOptions</a>&gt;</div>
+    <div><a class="xref" href="CG.Email.Strategies.IEmailStrategy.html">IEmailStrategy</a></div>
     <div><span class="xref">CG.Business.Strategies.IStrategy</span></div>
     <div><span class="xref">System.IDisposable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">CG.DisposableBase.System.IDisposable.Dispose()</span>
+      <span class="xref">CG.Business.Strategies.StrategyBase&lt;CG.Email.Strategies.Options.SmtpEmailStrategyOptions&gt;.Options</span>
     </div>
     <div>
-      <span class="xref">CG.DisposableBase.Dispose(System.Boolean)</span>
+      <span class="xref">CG.DisposableBase.System.IDisposable.Dispose()</span>
     </div>
     <div>
       <span class="xref">CG.DisposableBase.IsDisposed</span>
@@ -132,22 +135,114 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CG.Email.Strategies.html">CG.Email.Strategies</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CG.Email.Strategies.Smtp.html">CG.Email.Strategies.Smtp</a></h6>
   <h6><strong>Assembly</strong>: CG.Email.dll</h6>
-  <h5 id="CG_Email_Strategies_EmailStrategyBase_syntax">Syntax</h5>
+  <h5 id="CG_Email_Strategies_Smtp_SmtpEmailStrategy_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class EmailStrategyBase : StrategyBase, IStrategy, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class SmtpEmailStrategy : EmailStrategyBase&lt;SmtpEmailStrategyOptions&gt;, IEmailStrategy&lt;SmtpEmailStrategyOptions&gt;, IEmailStrategy, IStrategy, IDisposable</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="CG_Email_Strategies_Smtp_SmtpEmailStrategy__ctor_" data-uid="CG.Email.Strategies.Smtp.SmtpEmailStrategy.#ctor*"></a>
+  <h4 id="CG_Email_Strategies_Smtp_SmtpEmailStrategy__ctor_Microsoft_Extensions_Options_IOptions_CG_Email_Strategies_Options_SmtpEmailStrategyOptions__System_Net_Mail_SmtpClient_" data-uid="CG.Email.Strategies.Smtp.SmtpEmailStrategy.#ctor(Microsoft.Extensions.Options.IOptions{CG.Email.Strategies.Options.SmtpEmailStrategyOptions},System.Net.Mail.SmtpClient)">SmtpEmailStrategy(IOptions&lt;SmtpEmailStrategyOptions&gt;, SmtpClient)</h4>
+  <div class="markdown level1 summary"><p>This constructor creates a new instance of the <a class="xref" href="CG.Email.Strategies.Smtp.SmtpEmailStrategy.html">SmtpEmailStrategy</a>
+class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SmtpEmailStrategy(IOptions&lt;SmtpEmailStrategyOptions&gt; options, SmtpClient client)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.Options.IOptions</span>&lt;<a class="xref" href="CG.Email.Strategies.Options.SmtpEmailStrategyOptions.html">SmtpEmailStrategyOptions</a>&gt;</td>
+        <td><span class="parametername">options</span></td>
+        <td><p>The options to use for the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Net.Mail.SmtpClient</span></td>
+        <td><span class="parametername">client</span></td>
+        <td><p>The SMTP client to use for the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="CG_Email_Strategies_Smtp_SmtpEmailStrategy_Client_" data-uid="CG.Email.Strategies.Smtp.SmtpEmailStrategy.Client*"></a>
+  <h4 id="CG_Email_Strategies_Smtp_SmtpEmailStrategy_Client" data-uid="CG.Email.Strategies.Smtp.SmtpEmailStrategy.Client">Client</h4>
+  <div class="markdown level1 summary"><p>This property contains a reference to an SMTP client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SmtpClient Client { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Net.Mail.SmtpClient</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
-  <a id="CG_Email_Strategies_EmailStrategyBase_SendAsync_" data-uid="CG.Email.Strategies.EmailStrategyBase.SendAsync*"></a>
-  <h4 id="CG_Email_Strategies_EmailStrategyBase_SendAsync_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_String_System_String_System_Boolean_System_Threading_CancellationToken_" data-uid="CG.Email.Strategies.EmailStrategyBase.SendAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean,System.Threading.CancellationToken)">SendAsync(String, IEnumerable&lt;String&gt;, IEnumerable&lt;String&gt;, IEnumerable&lt;String&gt;, IEnumerable&lt;String&gt;, String, String, Boolean, CancellationToken)</h4>
+  <a id="CG_Email_Strategies_Smtp_SmtpEmailStrategy_Dispose_" data-uid="CG.Email.Strategies.Smtp.SmtpEmailStrategy.Dispose*"></a>
+  <h4 id="CG_Email_Strategies_Smtp_SmtpEmailStrategy_Dispose_System_Boolean_" data-uid="CG.Email.Strategies.Smtp.SmtpEmailStrategy.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"><p>This method is called when the object is disposed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td><p>True to dispose of managed resources; false
+otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">CG.DisposableBase.Dispose(System.Boolean)</span></div>
+  <a id="CG_Email_Strategies_Smtp_SmtpEmailStrategy_SendAsync_" data-uid="CG.Email.Strategies.Smtp.SmtpEmailStrategy.SendAsync*"></a>
+  <h4 id="CG_Email_Strategies_Smtp_SmtpEmailStrategy_SendAsync_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_String_System_String_System_Boolean_System_Threading_CancellationToken_" data-uid="CG.Email.Strategies.Smtp.SmtpEmailStrategy.SendAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean,System.Threading.CancellationToken)">SendAsync(String, IEnumerable&lt;String&gt;, IEnumerable&lt;String&gt;, IEnumerable&lt;String&gt;, IEnumerable&lt;String&gt;, String, String, Boolean, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>This method sends an email.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract Task&lt;IEnumerable&lt;EmailResult&gt;&gt; SendAsync(string fromAddress, IEnumerable&lt;string&gt; toAddresses, IEnumerable&lt;string&gt; ccAddresses, IEnumerable&lt;string&gt; bccAddresses, IEnumerable&lt;string&gt; attachments, string subject, string body, bool bodyIsHtml, CancellationToken token)</code></pre>
+    <pre><code class="lang-csharp hljs">public override Task&lt;IEnumerable&lt;EmailResult&gt;&gt; SendAsync(string fromAddress, IEnumerable&lt;string&gt; toAddresses, IEnumerable&lt;string&gt; ccAddresses, IEnumerable&lt;string&gt; bccAddresses, IEnumerable&lt;string&gt; attachments, string subject, string body, bool bodyIsHtml, CancellationToken token)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -231,7 +326,15 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">CG.Email.Strategies.EmailStrategyBase&lt;CG.Email.Strategies.Options.SmtpEmailStrategyOptions&gt;.SendAsync(System.String, System.Collections.Generic.IEnumerable&lt;System.String&gt;, System.Collections.Generic.IEnumerable&lt;System.String&gt;, System.Collections.Generic.IEnumerable&lt;System.String&gt;, System.Collections.Generic.IEnumerable&lt;System.String&gt;, System.String, System.String, System.Boolean, System.Threading.CancellationToken)</span></div>
   <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="CG.Email.Strategies.IEmailStrategy-1.html">IEmailStrategy&lt;TOptions&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="CG.Email.Strategies.IEmailStrategy.html">IEmailStrategy</a>
+  </div>
   <div>
       <span class="xref">CG.Business.Strategies.IStrategy</span>
   </div>
