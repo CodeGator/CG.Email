@@ -1,12 +1,10 @@
-﻿using CG.Configuration;
-using CG.Email.Properties;
-using CG.Email.Strategies.Options;
+﻿using CG.Business;
 using CG.Validations;
-using Microsoft.AspNetCore.Routing.Tree;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using System;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace CG.Email.Strategies.DoNothing
 {
@@ -55,7 +53,7 @@ namespace CG.Email.Strategies.DoNothing
                     serviceCollection.AddTransient<IEmailStrategy, DoNothingEmailStrategy>();
                     break;
             }
-                                    
+
             // Return the service collection.
             return serviceCollection;
         }

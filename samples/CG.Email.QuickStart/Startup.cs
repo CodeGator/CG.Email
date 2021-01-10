@@ -22,7 +22,8 @@ namespace CG.Email.QuickStart
             )
         {
             services.AddEmail(
-                Configuration.GetSection("Services:Email")
+                Configuration.GetSection("Services:Email"),
+                ServiceLifetime.Singleton
                 );
         }
 
@@ -31,7 +32,10 @@ namespace CG.Email.QuickStart
             IWebHostEnvironment env
             )
         {
-            
+            app.UseEmail(
+                env,
+                "Services:Email"
+                );
         }
     }
 }

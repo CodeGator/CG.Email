@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
+using System.Linq;
 
 namespace CG.Email.QuickStart
 {
@@ -9,7 +10,7 @@ namespace CG.Email.QuickStart
     {
         static void Main(string[] args)
         {
-            Host.CreateDefaultBuilder()
+            Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
@@ -30,7 +31,7 @@ namespace CG.Email.QuickStart
                             "this is a test"
                             );
 
-                        Console.WriteLine($"Result: {result.EmailId}");
+                        Console.WriteLine($"Result: {result.First().EmailId}");
                     }
                     catch (Exception ex)
                     {

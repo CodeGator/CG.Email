@@ -70,7 +70,7 @@ namespace CG.Email
         /// <param name="bodyIsHtml">True if the body contains HTML; False otherwise.</param>
         /// <param name="token">An optional cancellation token.</param>
         /// <returns>A task to perform the operation.</returns>
-        public async Task<EmailResult> SendAsync(
+        public async Task<IEnumerable<EmailResult>> SendAsync(
             string fromAddress,
             IEnumerable<string> toAddresses,
             IEnumerable<string> ccAddresses,

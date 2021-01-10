@@ -31,7 +31,7 @@ namespace CG.Email.Strategies
         /// <param name="bodyIsHtml">True if the body contains HTML; False otherwise.</param>
         /// <param name="token">A cancellation token.</param>
         /// <returns>A task to perform the operation.</returns>
-        public abstract Task<EmailResult> SendAsync(
+        public abstract Task<IEnumerable<EmailResult>> SendAsync(
             string fromAddress,
             IEnumerable<string> toAddresses,
             IEnumerable<string> ccAddresses,
@@ -82,7 +82,7 @@ namespace CG.Email.Strategies
         #region Public methods
 
         /// <inheritdoc />
-        public abstract Task<EmailResult> SendAsync(
+        public abstract Task<IEnumerable<EmailResult>> SendAsync(
             string fromAddress,
             IEnumerable<string> toAddresses,
             IEnumerable<string> ccAddresses,

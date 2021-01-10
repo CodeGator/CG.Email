@@ -33,6 +33,10 @@ Platforms supported:
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="EmailServiceExtensions.cs~RFd36cf0.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="CG.Business" Version="2021.1.9" />
     <PackageReference Include="CG.Reflection" Version="2021.1.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />

@@ -18,7 +18,7 @@ namespace CG.Email.Strategies.DoNothing
         #region Public methods
 
         /// <summary>
-        /// This method wires up any startup logic required by the "do nothin"
+        /// This method wires up any startup logic required by the "do nothing"
         /// email strategy.
         /// </summary>
         /// <param name="applicationBuilder">The application builder to use for

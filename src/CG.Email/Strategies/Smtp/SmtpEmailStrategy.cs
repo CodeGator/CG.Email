@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Mail;
 using System.Threading;
 using System.Threading.Tasks;
@@ -69,7 +70,7 @@ namespace CG.Email.Strategies.Smtp
         /// <param name="bodyIsHtml">True if the body contains HTML; False otherwise.</param>
         /// <param name="token">A cancellation token.</param>
         /// <returns>A task to perform the operation.</returns>
-        public override Task<EmailResult> SendAsync(
+        public override Task<IEnumerable<EmailResult>> SendAsync(
             string fromAddress,
             IEnumerable<string> toAddresses,
             IEnumerable<string> ccAddresses,
@@ -97,10 +98,10 @@ namespace CG.Email.Strategies.Smtp
             Client.Send(message);
 
             // Create a dummy result since SMTP doesn't give us a real one.
-            var retValue = new EmailResult()
+            var retValue = new EmailResult[]
             {
-                EmailId = $"{Guid.NewGuid():N}"
-            };
+                new EmailResult() { EmailId = $"{Guid.NewGuid():N}" }
+            }.AsEnumerable();
 
             // Return the result.
             return Task.FromResult(retValue);
