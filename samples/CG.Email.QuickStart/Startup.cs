@@ -21,6 +21,15 @@ namespace CG.Email.QuickStart
             IServiceCollection services
             )
         {
+            // I'm in the process of trying to solve an issue where
+            //   the email service/strategy registrations disappear
+            //   after we add them - hence, the duplicate call here.
+
+            services.AddEmail(
+                Configuration.GetSection("Services:Email"),
+                ServiceLifetime.Singleton
+                );
+
             services.AddEmail(
                 Configuration.GetSection("Services:Email"),
                 ServiceLifetime.Singleton
