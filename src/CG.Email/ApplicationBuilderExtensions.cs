@@ -41,7 +41,6 @@ namespace CG.Email
 
             // Call the use method for the strategy.
             applicationBuilder.UseStrategies(
-                hostEnvironment,
                 configurationSection
                 );
 

@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>net5.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <DocumentationFile>bin\Debug\netcoreapp3.1\cg.email.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\net5.0\cg.email.xml</DocumentationFile>
     <IncludeSymbols>true</IncludeSymbols>
     <IncludeSource>true</IncludeSource>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -11,7 +11,7 @@
     <Description>This package contains email extensions used by other CodeGator packages. 
 
 Platforms supported:
-      .NET Core 3.1 or above</Description>
+      .NET 5.x or above</Description>
     <Copyright>Copyright © 2019 - 2021 by CodeGator. All rights reserved.</Copyright>
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/CodeGator/CG.Email</PackageProjectUrl>
@@ -37,12 +37,12 @@ Platforms supported:
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CG.Business" Version="2021.1.16" />
-    <PackageReference Include="CG.Reflection" Version="2021.1.2" />
+    <PackageReference Include="CG.Business" Version="2021.2.1" />
+    <PackageReference Include="CG.Reflection" Version="2021.2.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
-    <PackageReference Include="Nerdbank.GitVersioning" Version="3.3.37" PrivateAssets="all">
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.194" PrivateAssets="all">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
   </ItemGroup>

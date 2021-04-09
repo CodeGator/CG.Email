@@ -10,7 +10,7 @@
 The package contains email extension used by other CodeGator packages.
 
 #### What platform(s) does it support?
-* .NET Core 3.1 or higher
+* .NET 5.x or higher
 
 #### How do I install it?
 The binary is hosted on [NuGet](https://www.nuget.org/packages/CG.Email/). To install the package using the NuGet package manager:
