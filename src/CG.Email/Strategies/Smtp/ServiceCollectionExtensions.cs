@@ -37,19 +37,16 @@ namespace CG.Email.Strategies.Smtp
         /// parameter, for chaining calls together.</returns>
         public static IServiceCollection AddSmtpStrategies(
             this IServiceCollection serviceCollection,
-            IDataProtector dataProtector,
             IConfiguration configuration,
             ServiceLifetime serviceLifetime = ServiceLifetime.Scoped
             )
         {
             // Validate the parameters before attempting to use them.
             Guard.Instance().ThrowIfNull(serviceCollection, nameof(serviceCollection))
-                .ThrowIfNull(dataProtector, nameof(dataProtector))
                 .ThrowIfNull(configuration, nameof(configuration));
 
             // Configure the strategy options.
             serviceCollection.ConfigureOptions<SmtpEmailStrategyOptions>(
-                dataProtector,
                 configuration
                 );
 

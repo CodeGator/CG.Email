@@ -1,4 +1,5 @@
-﻿using CG.Email.Strategies.Smtp;
+﻿using CG.DataProtection;
+using CG.Email.Strategies.Smtp;
 using CG.Options;
 using System;
 using System.ComponentModel.DataAnnotations;
