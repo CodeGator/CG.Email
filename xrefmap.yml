@@ -7,25 +7,25 @@ references:
   commentId: N:CG.Email
   fullName: CG.Email
   nameWithType: CG.Email
-- uid: CG.Email.ApplicationBuilderExtensions
-  name: ApplicationBuilderExtensions
-  href: api/CG.Email.ApplicationBuilderExtensions.html
-  commentId: T:CG.Email.ApplicationBuilderExtensions
-  fullName: CG.Email.ApplicationBuilderExtensions
-  nameWithType: ApplicationBuilderExtensions
-- uid: CG.Email.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,System.String)
+- uid: CG.Email.EmailApplicationBuilderExtensions
+  name: EmailApplicationBuilderExtensions
+  href: api/CG.Email.EmailApplicationBuilderExtensions.html
+  commentId: T:CG.Email.EmailApplicationBuilderExtensions
+  fullName: CG.Email.EmailApplicationBuilderExtensions
+  nameWithType: EmailApplicationBuilderExtensions
+- uid: CG.Email.EmailApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,System.String)
   name: UseEmail(IApplicationBuilder, IWebHostEnvironment, String)
-  href: api/CG.Email.ApplicationBuilderExtensions.html#CG_Email_ApplicationBuilderExtensions_UseEmail_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_System_String_
-  commentId: M:CG.Email.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,System.String)
-  fullName: CG.Email.ApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, System.String)
-  nameWithType: ApplicationBuilderExtensions.UseEmail(IApplicationBuilder, IWebHostEnvironment, String)
-- uid: CG.Email.ApplicationBuilderExtensions.UseEmail*
+  href: api/CG.Email.EmailApplicationBuilderExtensions.html#CG_Email_EmailApplicationBuilderExtensions_UseEmail_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_System_String_
+  commentId: M:CG.Email.EmailApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,System.String)
+  fullName: CG.Email.EmailApplicationBuilderExtensions.UseEmail(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, System.String)
+  nameWithType: EmailApplicationBuilderExtensions.UseEmail(IApplicationBuilder, IWebHostEnvironment, String)
+- uid: CG.Email.EmailApplicationBuilderExtensions.UseEmail*
   name: UseEmail
-  href: api/CG.Email.ApplicationBuilderExtensions.html#CG_Email_ApplicationBuilderExtensions_UseEmail_
-  commentId: Overload:CG.Email.ApplicationBuilderExtensions.UseEmail
+  href: api/CG.Email.EmailApplicationBuilderExtensions.html#CG_Email_EmailApplicationBuilderExtensions_UseEmail_
+  commentId: Overload:CG.Email.EmailApplicationBuilderExtensions.UseEmail
   isSpec: "True"
-  fullName: CG.Email.ApplicationBuilderExtensions.UseEmail
-  nameWithType: ApplicationBuilderExtensions.UseEmail
+  fullName: CG.Email.EmailApplicationBuilderExtensions.UseEmail
+  nameWithType: EmailApplicationBuilderExtensions.UseEmail
 - uid: CG.Email.EmailException
   name: EmailException
   href: api/CG.Email.EmailException.html
@@ -648,25 +648,25 @@ references:
   commentId: N:Microsoft.Extensions.DependencyInjection
   fullName: Microsoft.Extensions.DependencyInjection
   nameWithType: Microsoft.Extensions.DependencyInjection
-- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
-  name: ServiceCollectionExtensions
-  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html
-  commentId: T:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
-  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
-  nameWithType: ServiceCollectionExtensions
-- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+- uid: Microsoft.Extensions.DependencyInjection.EmailServiceCollectionExtensions
+  name: EmailServiceCollectionExtensions
+  href: api/Microsoft.Extensions.DependencyInjection.EmailServiceCollectionExtensions.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.EmailServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.EmailServiceCollectionExtensions
+  nameWithType: EmailServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.EmailServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
   name: AddEmail(IServiceCollection, IConfiguration, ServiceLifetime)
-  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddEmail_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
-  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  nameWithType: ServiceCollectionExtensions.AddEmail(IServiceCollection, IConfiguration, ServiceLifetime)
-- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail*
+  href: api/Microsoft.Extensions.DependencyInjection.EmailServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_EmailServiceCollectionExtensions_AddEmail_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
+  commentId: M:Microsoft.Extensions.DependencyInjection.EmailServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  fullName: Microsoft.Extensions.DependencyInjection.EmailServiceCollectionExtensions.AddEmail(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType: EmailServiceCollectionExtensions.AddEmail(IServiceCollection, IConfiguration, ServiceLifetime)
+- uid: Microsoft.Extensions.DependencyInjection.EmailServiceCollectionExtensions.AddEmail*
   name: AddEmail
-  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddEmail_
-  commentId: Overload:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail
+  href: api/Microsoft.Extensions.DependencyInjection.EmailServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_EmailServiceCollectionExtensions_AddEmail_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.EmailServiceCollectionExtensions.AddEmail
   isSpec: "True"
-  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddEmail
-  nameWithType: ServiceCollectionExtensions.AddEmail
+  fullName: Microsoft.Extensions.DependencyInjection.EmailServiceCollectionExtensions.AddEmail
+  nameWithType: EmailServiceCollectionExtensions.AddEmail
 - uid: Microsoft.Extensions.Hosting
   name: Microsoft.Extensions.Hosting
   href: api/Microsoft.Extensions.Hosting.html

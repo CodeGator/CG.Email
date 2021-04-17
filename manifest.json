@@ -14,11 +14,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Email.ApplicationBuilderExtensions.yml",
+      "source_relative_path": "api/CG.Email.EmailApplicationBuilderExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Email.ApplicationBuilderExtensions.html",
-          "hash": "aMHhg3ATyhHfWt98wZmiNEDJJ8e+W2FSVD9wYDl8u7g="
+          "relative_path": "api/CG.Email.EmailApplicationBuilderExtensions.html",
+          "hash": "SH3vF6intpIw+4dOf2dnCHzrddBvMMEofb5D44TZgYY="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Email.html",
-          "hash": "ppNSorPwgt+y8AhGwDy7fhpexLcrkWYO+6vph5H1X0M="
+          "hash": "9fGqTH4frCC/tkIoZC6wWSf6ILiYIzCfL3YdRTpO3bY="
         }
       },
       "is_incremental": false,
@@ -290,11 +290,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.yml",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.EmailServiceCollectionExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html",
-          "hash": "YBq59xa63t5+j7hyjYt+KxGOInCVp53Qm4SRIi8QdzQ="
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.EmailServiceCollectionExtensions.html",
+          "hash": "ya65Zrxwk85E7S/sxMouaTsTXcz6kSEgxhkGD5tZ6tE="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.Extensions.DependencyInjection.html",
-          "hash": "IgaXKEF9ASkCD8+TNpTqvf6qEszdalOBZkq9JnhQaLA="
+          "hash": "9Gjm1T6nxBkzc4g94/BxC4zqYxbQj9ArpsiMR5nNgcc="
         }
       },
       "is_incremental": false,
@@ -354,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "RiMbWdyJZMtCSFg8uoEquPWEQw491xgrwVFF4ADArbE="
+          "hash": "5d4TQ52j6PmESeWt8iafOza0ZYDcx6nY9ev2zavMP3A="
         }
       },
       "is_incremental": false,
