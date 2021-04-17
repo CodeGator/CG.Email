@@ -29,8 +29,6 @@ namespace CG.Email.Strategies.Smtp
         /// </summary>
         /// <param name="serviceCollection">The service collection to use for
         /// the operation.</param>
-        /// <param name="dataProtector">The data protector to use for
-        /// the operation.</param>
         /// <param name="configuration">The configuration to use for the operation.</param>
         /// <param name="serviceLifetime">The service lifetime to use for the operation.</param>
         /// <returns>The value of the <paramref name="serviceCollection"/> 

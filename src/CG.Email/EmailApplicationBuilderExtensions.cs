@@ -7,9 +7,9 @@ namespace CG.Email
 {
     /// <summary>
     /// This class contains extension methods related to the <see cref="IApplicationBuilder"/>
-    /// type.
+    /// type, for register types related to email.
     /// </summary>
-    public static partial class ApplicationBuilderExtensions
+    public static partial class EmailApplicationBuilderExtensions
     {
         // *******************************************************************
         // Public methods.
