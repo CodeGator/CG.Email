@@ -1,6 +1,7 @@
 ﻿using CG.Validations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 using System;
 
 namespace CG.Email.Strategies.DoNothing
@@ -29,7 +30,7 @@ namespace CG.Email.Strategies.DoNothing
         /// parameter, for chaining calls together.</returns>
         public static IApplicationBuilder UseDoNothingStrategies(
             this IApplicationBuilder applicationBuilder,
-            IWebHostEnvironment hostEnvironment
+            IHostEnvironment hostEnvironment
             )
         {
             // Validate the parameters before attempting to use them.
