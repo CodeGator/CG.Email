@@ -37,7 +37,7 @@ Platforms supported:
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CG.Business" Version="2021.2.28" />
+    <PackageReference Include="CG.Business" Version="2021.2.31" />
     <PackageReference Include="CG.DataProtection" Version="2021.1.18" />
     <PackageReference Include="CG.Reflection" Version="2021.2.16" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
