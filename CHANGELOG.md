@@ -5,6 +5,8 @@
 
 * I switched to the .NET 5.0 framework
 
+* I changed the return type to a single EmailResult
+
 ## 2021.1
 
 * I bumped the major version for the new year.

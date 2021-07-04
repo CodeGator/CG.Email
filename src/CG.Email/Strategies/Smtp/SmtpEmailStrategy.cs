@@ -74,8 +74,9 @@ namespace CG.Email.Strategies.Smtp
         /// <param name="body">The body to use for the operation.</param>
         /// <param name="bodyIsHtml">True if the body contains HTML; False otherwise.</param>
         /// <param name="token">A cancellation token.</param>
-        /// <returns>A task to perform the operation.</returns>
-        public override Task<IEnumerable<EmailResult>> SendAsync(
+        /// <returns>A task to perform the operation, that returns an <see cref="EmailResult"/>
+        /// object, representing the results of the operation.</returns>
+        public override Task<EmailResult> SendAsync(
             string fromAddress,
             IEnumerable<string> toAddresses,
             IEnumerable<string> ccAddresses,
@@ -103,10 +104,7 @@ namespace CG.Email.Strategies.Smtp
             Client.Send(message);
 
             // Create a dummy result since SMTP doesn't give us a real one.
-            var retValue = new EmailResult[]
-            {
-                new EmailResult() { EmailId = $"{Guid.NewGuid():N}" }
-            }.AsEnumerable();
+            var retValue = new EmailResult() { EmailId = $"{Guid.NewGuid():N}" };
 
             // Return the result.
             return Task.FromResult(retValue);

@@ -23,8 +23,9 @@ namespace CG.Email.Strategies
         /// <param name="body">The body to use for the operation.</param>
         /// <param name="bodyIsHtml">True if the body contains HTML; False otherwise.</param>
         /// <param name="token">A cancellation token.</param>
-        /// <returns>A task to perform the operation.</returns>
-        Task<IEnumerable<EmailResult>> SendAsync(
+        /// <returns>A task to perform the operation, that returns an <see cref="EmailResult"/>
+        /// object, representing the results of the operation.</returns>
+        Task<EmailResult> SendAsync(
             string fromAddress,
             IEnumerable<string> toAddresses,
             IEnumerable<string> ccAddresses,

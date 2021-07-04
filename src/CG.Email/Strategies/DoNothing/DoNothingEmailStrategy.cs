@@ -37,7 +37,7 @@ namespace CG.Email.Strategies.DoNothing
         #region Public methods
 
         /// <inheritdoc/>
-        public override Task<IEnumerable<EmailResult>> SendAsync(
+        public override Task<EmailResult> SendAsync(
             string fromAddress,
             IEnumerable<string> toAddresses,
             IEnumerable<string> ccAddresses,
@@ -50,10 +50,7 @@ namespace CG.Email.Strategies.DoNothing
             )
         {
             // Create a dummy result since we doesn't actually send anything.
-            var retValue = new EmailResult[]
-            {
-                new EmailResult() { EmailId = $"{Guid.NewGuid():N}" }
-            }.AsEnumerable();
+            var retValue = new EmailResult() { EmailId = $"{Guid.NewGuid():N}" };
 
             // Return the result.
             return Task.FromResult(retValue);

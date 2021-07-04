@@ -30,8 +30,9 @@ namespace CG.Email
         /// <param name="subject">The subject to use for the operation.</param>
         /// <param name="body">The body to use for the operation.</param>
         /// <param name="bodyIsHtml">True is the body contains HTML; False otherwise.</param>
-        /// <returns>The result of the email operation.</returns>
-        public static IEnumerable<EmailResult> Send(
+        /// <returns>A task to perform the operation, that returns an <see cref="EmailResult"/>
+        /// object, representing the results of the operation.</returns>
+        public static EmailResult Send(
             this IEmailService service,
             string fromAddress,
             IEnumerable<string> toAddresses,
@@ -70,8 +71,9 @@ namespace CG.Email
         /// <param name="subject">The subject to use for the operation.</param>
         /// <param name="body">The body to use for the operation.</param>
         /// <param name="bodyIsHtml">True if the body contains HTML; False otherwise.</param>
-        /// <returns>The result of the email operation.</returns>
-        public static IEnumerable<EmailResult> Send(
+        /// <returns>A task to perform the operation, that returns an <see cref="EmailResult"/>
+        /// object, representing the results of the operation.</returns>
+        public static EmailResult Send(
             this IEmailService service,
             string fromAddress,
             string toAddress,
@@ -109,8 +111,9 @@ namespace CG.Email
         /// <param name="body">The body to use for the operation.</param>
         /// <param name="bodyIsHtml">True if the body contains HTML; False otherwise.</param>
         /// <param name="token">An optional cancellation token.</param>
-        /// <returns>A task to perform the operation.</returns>
-        public static async Task<IEnumerable<EmailResult>> SendAsync(
+        /// <returns>A task to perform the operation, that returns an <see cref="EmailResult"/>
+        /// object, representing the results of the operation.</returns>
+        public static async Task<EmailResult> SendAsync(
             this IEmailService service,
             string fromAddress,
             string toAddress,
@@ -149,8 +152,9 @@ namespace CG.Email
         /// <param name="subject">The subject to use for the operation.</param>
         /// <param name="body">The body to use for the operation.</param>
         /// <param name="bodyIsHtml">True if the body contains HTML; False otherwise.</param>
-        /// <returns>The result of the email operation.</returns>
-        public static IEnumerable<EmailResult> Send(
+        /// <returns>A task to perform the operation, that returns an <see cref="EmailResult"/>
+        /// object, representing the results of the operation.</returns>
+        public static EmailResult Send(
             this IEmailService service,
             string fromAddress,
             string toAddress,
@@ -191,8 +195,9 @@ namespace CG.Email
         /// <param name="body">The body to use for the operation.</param>
         /// <param name="bodyIsHtml">True if the body contains HTML; False otherwise.</param>
         /// <param name="token">An optional cancellation token.</param>
-        /// <returns>A task to perform the operation.</returns>
-        public static async Task<IEnumerable<EmailResult>> SendAsync(
+        /// <returns>A task to perform the operation, that returns an <see cref="EmailResult"/>
+        /// object, representing the results of the operation.</returns>
+        public static async Task<EmailResult> SendAsync(
             this IEmailService service,
             string fromAddress,
             string toAddress,
@@ -235,8 +240,9 @@ namespace CG.Email
         /// <param name="subject">The subject to use for the operation.</param>
         /// <param name="body">The body to use for the operation.</param>
         /// <param name="bodyIsHtml">True if the body contains HTML; False otherwise.</param>
-        /// <returns>The result of the email operation.</returns>
-        public static IEnumerable<EmailResult> Send(
+        /// <returns>A task to perform the operation, that returns an <see cref="EmailResult"/>
+        /// object, representing the results of the operation.</returns>
+        public static EmailResult Send(
             this IEmailService service,
             string fromAddress,
             string toAddress,
@@ -280,8 +286,9 @@ namespace CG.Email
         /// <param name="body">The body to use for the operation.</param>
         /// <param name="bodyIsHtml">True if the body contains HTML; False otherwise.</param>
         /// <param name="token">An optional cancellation token.</param>
-        /// <returns>A task to perform the operation..</returns>
-        public static async Task<IEnumerable<EmailResult>> SendAsync(
+        /// <returns>A task to perform the operation, that returns an <see cref="EmailResult"/>
+        /// object, representing the results of the operation.</returns>
+        public static async Task<EmailResult> SendAsync(
             this IEmailService service,
             string fromAddress,
             string toAddress,
@@ -327,8 +334,9 @@ namespace CG.Email
         /// <param name="subject">The subject to use for the operation.</param>
         /// <param name="body">The body to use for the operation.</param>
         /// <param name="bodyIsHtml">True if the body contains HTML; False otherwise.</param>
-        /// <returns>The result of the email operation.</returns>
-        public static IEnumerable<EmailResult> Send(
+        /// <returns>A task to perform the operation, that returns an <see cref="EmailResult"/>
+        /// object, representing the results of the operation.</returns>
+        public static EmailResult Send(
             this IEmailService service,
             string fromAddress,
             string toAddress,
@@ -375,8 +383,9 @@ namespace CG.Email
         /// <param name="body">The body to use for the operation.</param>
         /// <param name="bodyIsHtml">True if the body contains HTML; False otherwise.</param>
         /// <param name="token">An optional cancellation token.</param>
-        /// <returns>A task to perform the operation.</returns>
-        public static async Task<IEnumerable<EmailResult>> SendAsync(
+        /// <returns>A task to perform the operation, that returns an <see cref="EmailResult"/>
+        /// object, representing the results of the operation.</returns>
+        public static async Task<EmailResult> SendAsync(
             this IEmailService service,
             string fromAddress,
             string toAddress,
