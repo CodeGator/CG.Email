@@ -1,4 +1,5 @@
 ﻿using CG.Email.Strategies.Options;
+using CG.Validations;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
@@ -46,7 +47,11 @@ namespace CG.Email.Strategies.Smtp
             SmtpClient client
             ) : base(options)
         {
+            // Validate the parameters before attempting to use them.
+            Guard.Instance().ThrowIfNull(client, nameof(client));
 
+            // Save the references.
+            Client = client;
         }
 
         #endregion

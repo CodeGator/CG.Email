@@ -11,7 +11,7 @@ namespace Microsoft.Extensions.DependencyInjection
     /// This class contains extension methods related to the <see cref="IServiceCollection"/>
     /// type, for registering types related to email.
     /// </summary>
-    public static partial class EmailServiceCollectionExtensions
+    public static partial class ServiceCollectionExtensions
     {
         // *******************************************************************
         // Public methods.
