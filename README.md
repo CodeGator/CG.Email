@@ -5,6 +5,7 @@
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Email.svg?style=flat)](https://nuget.org/packages/CG.Email)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Email/24)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Email/discussions)
+[![CG.Email on fuget.org](https://www.fuget.org/packages/CG.Email/badge.svg)](https://www.fuget.org/packages/CG.Email)
 
 #### What does it do?
 The package contains email extension used by other CodeGator packages.
@@ -19,6 +20,8 @@ PM> Install-Package CG.Email
 
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Email/issues)
+
+We have a discussion board [HERE](https://github.com/CodeGator/CG.Email/discussions)
 
 #### Is there any documentation?
 There is developer documentation [HERE](https://codegator.github.io/CG.Email/)

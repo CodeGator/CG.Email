@@ -34,11 +34,13 @@ namespace CG.Email.Strategies.Options
         /// This property contains a user name for the email account.
         /// </summary>
         [Required]
+        [ProtectedProperty]
         public string UserName { get; set; }
 
         /// <summary>
         /// This property contains a password for the email account.
         /// </summary>
+        [Required]
         [ProtectedProperty]
         public string Password { get; set; }
 

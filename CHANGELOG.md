@@ -1,6 +1,10 @@
 # CG.Email change log
 ---
 
+## 2021.3
+
+* bug fixes
+
 ## 2021.2
 
 * I switched to the .NET 5.0 framework

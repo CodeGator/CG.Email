@@ -50,7 +50,10 @@ namespace CG.Email.Strategies.DoNothing
             )
         {
             // Create a dummy result since we doesn't actually send anything.
-            var retValue = new EmailResult() { EmailId = $"{Guid.NewGuid():N}" };
+            var retValue = new EmailResult()
+            {
+                EmailId = $"{Guid.NewGuid():N}"
+            };
 
             // Return the result.
             return Task.FromResult(retValue);

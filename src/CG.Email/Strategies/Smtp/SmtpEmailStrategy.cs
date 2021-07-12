@@ -104,7 +104,10 @@ namespace CG.Email.Strategies.Smtp
             Client.Send(message);
 
             // Create a dummy result since SMTP doesn't give us a real one.
-            var retValue = new EmailResult() { EmailId = $"{Guid.NewGuid():N}" };
+            var retValue = new EmailResult() 
+            { 
+                EmailId = $"{Guid.NewGuid():N}"
+            };
 
             // Return the result.
             return Task.FromResult(retValue);

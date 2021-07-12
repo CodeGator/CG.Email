@@ -1,4 +1,5 @@
-﻿using CG.Email.Strategies.Options;
+﻿using CG.DataProtection;
+using CG.Email.Strategies.Options;
 using CG.Validations;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Extensions.Configuration;
@@ -45,6 +46,7 @@ namespace CG.Email.Strategies.Smtp
 
             // Configure the strategy options.
             serviceCollection.ConfigureOptions<SmtpEmailStrategyOptions>(
+                DataProtector.Instance(), // <-- default data protector.
                 configuration
                 );
 

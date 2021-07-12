@@ -24,6 +24,8 @@ namespace CG.Email
         /// <param name="token">An optional cancellation token.</param>
         /// <returns>A task to perform the operation, that returns an <see cref="EmailResult"/>
         /// object, representing the results of the operation.</returns>
+        /// <exception cref="EmailException">This exception is thrown whenever the operation
+        /// fails, for any reason.</exception>
         Task<EmailResult> SendAsync(
             string fromAddress,
             IEnumerable<string> toAddresses,
