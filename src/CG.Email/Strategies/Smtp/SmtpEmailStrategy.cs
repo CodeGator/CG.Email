@@ -161,7 +161,7 @@ namespace CG.Email.Strategies.Smtp
         /// <param name="body">The body to use for the operation.</param>
         /// <param name="bodyIsHtml">True if the body contains HTML; False otherwise.</param>
         /// <returns>A populated <see cref="MailMessage"/> object.</returns>
-        private MailMessage BuildAMessage(
+        private static MailMessage BuildAMessage(
             string fromAddress,
             IEnumerable<string> toAddresses,
             IEnumerable<string> ccAddresses,
@@ -179,27 +179,39 @@ namespace CG.Email.Strategies.Smtp
             };
 
             // Loop and add the TO addresses.
-            foreach (var toAddress in toAddresses)
+            foreach (var toAddress in toAddresses.Select(x => x.Trim()))
             {
-                message.To.Add(new MailAddress(toAddress.Trim()));
+                if (false == string.IsNullOrEmpty(toAddress))
+                {
+                    message.To.Add(new MailAddress(toAddress));
+                }
             }
 
             // Loop and add the CC addresses.
-            foreach (var ccAddress in ccAddresses)
+            foreach (var ccAddress in ccAddresses.Select(x=> x.Trim()))
             {
-                message.CC.Add(new MailAddress(ccAddress.Trim()));
+                if (false == string.IsNullOrEmpty(ccAddress))
+                {
+                    message.CC.Add(new MailAddress(ccAddress));
+                }
             }
 
             // Loop and add the BCC addresses.
-            foreach (var bccAddress in bccAddresses)
+            foreach (var bccAddress in bccAddresses.Select(x => x.Trim()))
             {
-                message.Bcc.Add(new MailAddress(bccAddress.Trim()));
+                if (false == string.IsNullOrEmpty(bccAddress))
+                {
+                    message.Bcc.Add(new MailAddress(bccAddress));
+                }
             }
 
             // Loop and add the attachments.
-            foreach (string attachment in attachments)
+            foreach (string attachment in attachments.Select(x => x.Trim()))
             {
-                message.Attachments.Add(new Attachment(attachment));
+                if (false == string.IsNullOrEmpty(attachment))
+                {
+                    message.Attachments.Add(new Attachment(attachment));
+                }                    
             }
 
             // Set the subject.

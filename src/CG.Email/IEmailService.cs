@@ -35,7 +35,7 @@ namespace CG.Email
             string subject,
             string body,
             bool bodyIsHtml = false,
-            CancellationToken token = default(CancellationToken)
+            CancellationToken token = default
             );
     }
 }

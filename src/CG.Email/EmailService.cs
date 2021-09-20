@@ -67,7 +67,7 @@ namespace CG.Email
             string subject,
             string body,
             bool bodyIsHtml = false,
-            CancellationToken token = default(CancellationToken)
+            CancellationToken token = default
             )
         {
             // Validate the parameters before attempting to us them.

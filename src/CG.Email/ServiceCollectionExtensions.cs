@@ -1,6 +1,4 @@
-﻿using CG.Configuration;
-using CG.Email;
-using CG.Email.Properties;
+﻿using CG.Email;
 using CG.Validations;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -34,7 +32,7 @@ namespace Microsoft.Extensions.DependencyInjection
         public static IServiceCollection AddEmail(
             this IServiceCollection serviceCollection,
             IConfiguration configuration,
-            ServiceLifetime serviceLifetime = ServiceLifetime.Scoped
+            ServiceLifetime serviceLifetime = ServiceLifetime.Singleton
             )
         {
             // Validate the parameters before attempting to use them.
@@ -58,7 +56,8 @@ namespace Microsoft.Extensions.DependencyInjection
             // Register the strategy(s).
             serviceCollection.AddStrategies(
                 configuration,
-                serviceLifetime
+                serviceLifetime,
+                "Email"
                 );
 
             // Return the service collection.

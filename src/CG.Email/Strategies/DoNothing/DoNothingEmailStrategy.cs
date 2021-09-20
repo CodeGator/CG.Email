@@ -49,7 +49,7 @@ namespace CG.Email.Strategies.DoNothing
             CancellationToken token
             )
         {
-            // Create a dummy result since we doesn't actually send anything.
+            // Create a dummy result since we don't actually send anything.
             var retValue = new EmailResult()
             {
                 EmailId = $"{Guid.NewGuid():N}"
