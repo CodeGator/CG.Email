@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class HostBuilderExtensions
    ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.58.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -125,14 +125,14 @@ type.</p>
   <h3 id="methods">Methods
   </h3>
   <a id="Microsoft_Extensions_Hosting_HostBuilderExtensions_AddEmail_" data-uid="Microsoft.Extensions.Hosting.HostBuilderExtensions.AddEmail*"></a>
-  <h4 id="Microsoft_Extensions_Hosting_HostBuilderExtensions_AddEmail_Microsoft_Extensions_Hosting_IHostBuilder_" data-uid="Microsoft.Extensions.Hosting.HostBuilderExtensions.AddEmail(Microsoft.Extensions.Hosting.IHostBuilder)">AddEmail(IHostBuilder)</h4>
+  <h4 id="Microsoft_Extensions_Hosting_HostBuilderExtensions_AddEmail_Microsoft_Extensions_Hosting_IHostBuilder_Microsoft_Extensions_DependencyInjection_ServiceLifetime_" data-uid="Microsoft.Extensions.Hosting.HostBuilderExtensions.AddEmail(Microsoft.Extensions.Hosting.IHostBuilder,Microsoft.Extensions.DependencyInjection.ServiceLifetime)">AddEmail(IHostBuilder, ServiceLifetime)</h4>
   <div class="markdown level1 summary"><p>This method adds a standard email service to the specified host
 builder.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IHostBuilder AddEmail(this IHostBuilder hostBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IHostBuilder AddEmail(this IHostBuilder hostBuilder, ServiceLifetime serviceLifetime = ServiceLifetime.Singleton)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -148,6 +148,12 @@ builder.</p>
         <td><span class="xref">Microsoft.Extensions.Hosting.IHostBuilder</span></td>
         <td><span class="parametername">hostBuilder</span></td>
         <td><p>The host builder to use for the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.DependencyInjection.ServiceLifetime</span></td>
+        <td><span class="parametername">serviceLifetime</span></td>
+        <td><p>The service lifetime to use for the service.</p>
 </td>
       </tr>
     </tbody>
