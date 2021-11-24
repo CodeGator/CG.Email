@@ -247,19 +247,19 @@ references:
   commentId: T:CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions
   fullName: CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions
   nameWithType: ApplicationBuilderExtensions
-- uid: CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.UseDoNothingEmailStrategies(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Hosting.IHostEnvironment)
-  name: UseDoNothingEmailStrategies(IApplicationBuilder, IHostEnvironment)
-  href: api/CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.html#CG_Email_Strategies_DoNothing_ApplicationBuilderExtensions_UseDoNothingEmailStrategies_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_Extensions_Hosting_IHostEnvironment_
-  commentId: M:CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.UseDoNothingEmailStrategies(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Hosting.IHostEnvironment)
-  fullName: CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.UseDoNothingEmailStrategies(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.Extensions.Hosting.IHostEnvironment)
-  nameWithType: ApplicationBuilderExtensions.UseDoNothingEmailStrategies(IApplicationBuilder, IHostEnvironment)
-- uid: CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.UseDoNothingEmailStrategies*
-  name: UseDoNothingEmailStrategies
-  href: api/CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.html#CG_Email_Strategies_DoNothing_ApplicationBuilderExtensions_UseDoNothingEmailStrategies_
-  commentId: Overload:CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.UseDoNothingEmailStrategies
+- uid: CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.UseDoNothingStrategies(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Hosting.IHostEnvironment)
+  name: UseDoNothingStrategies(IApplicationBuilder, IHostEnvironment)
+  href: api/CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.html#CG_Email_Strategies_DoNothing_ApplicationBuilderExtensions_UseDoNothingStrategies_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_Extensions_Hosting_IHostEnvironment_
+  commentId: M:CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.UseDoNothingStrategies(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Hosting.IHostEnvironment)
+  fullName: CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.UseDoNothingStrategies(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.Extensions.Hosting.IHostEnvironment)
+  nameWithType: ApplicationBuilderExtensions.UseDoNothingStrategies(IApplicationBuilder, IHostEnvironment)
+- uid: CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.UseDoNothingStrategies*
+  name: UseDoNothingStrategies
+  href: api/CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.html#CG_Email_Strategies_DoNothing_ApplicationBuilderExtensions_UseDoNothingStrategies_
+  commentId: Overload:CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.UseDoNothingStrategies
   isSpec: "True"
-  fullName: CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.UseDoNothingEmailStrategies
-  nameWithType: ApplicationBuilderExtensions.UseDoNothingEmailStrategies
+  fullName: CG.Email.Strategies.DoNothing.ApplicationBuilderExtensions.UseDoNothingStrategies
+  nameWithType: ApplicationBuilderExtensions.UseDoNothingStrategies
 - uid: CG.Email.Strategies.DoNothing.DoNothingEmailStrategy
   name: DoNothingEmailStrategy
   href: api/CG.Email.Strategies.DoNothing.DoNothingEmailStrategy.html
@@ -546,19 +546,19 @@ references:
   commentId: T:CG.Email.Strategies.Smtp.ApplicationBuilderExtensions
   fullName: CG.Email.Strategies.Smtp.ApplicationBuilderExtensions
   nameWithType: ApplicationBuilderExtensions
-- uid: CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpEmailStrategies(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Hosting.IHostEnvironment)
-  name: UseSmtpEmailStrategies(IApplicationBuilder, IHostEnvironment)
-  href: api/CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.html#CG_Email_Strategies_Smtp_ApplicationBuilderExtensions_UseSmtpEmailStrategies_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_Extensions_Hosting_IHostEnvironment_
-  commentId: M:CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpEmailStrategies(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Hosting.IHostEnvironment)
-  fullName: CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpEmailStrategies(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.Extensions.Hosting.IHostEnvironment)
-  nameWithType: ApplicationBuilderExtensions.UseSmtpEmailStrategies(IApplicationBuilder, IHostEnvironment)
-- uid: CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpEmailStrategies*
-  name: UseSmtpEmailStrategies
-  href: api/CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.html#CG_Email_Strategies_Smtp_ApplicationBuilderExtensions_UseSmtpEmailStrategies_
-  commentId: Overload:CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpEmailStrategies
+- uid: CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpStrategies(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Hosting.IHostEnvironment)
+  name: UseSmtpStrategies(IApplicationBuilder, IHostEnvironment)
+  href: api/CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.html#CG_Email_Strategies_Smtp_ApplicationBuilderExtensions_UseSmtpStrategies_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_Extensions_Hosting_IHostEnvironment_
+  commentId: M:CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpStrategies(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Hosting.IHostEnvironment)
+  fullName: CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpStrategies(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.Extensions.Hosting.IHostEnvironment)
+  nameWithType: ApplicationBuilderExtensions.UseSmtpStrategies(IApplicationBuilder, IHostEnvironment)
+- uid: CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpStrategies*
+  name: UseSmtpStrategies
+  href: api/CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.html#CG_Email_Strategies_Smtp_ApplicationBuilderExtensions_UseSmtpStrategies_
+  commentId: Overload:CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpStrategies
   isSpec: "True"
-  fullName: CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpEmailStrategies
-  nameWithType: ApplicationBuilderExtensions.UseSmtpEmailStrategies
+  fullName: CG.Email.Strategies.Smtp.ApplicationBuilderExtensions.UseSmtpStrategies
+  nameWithType: ApplicationBuilderExtensions.UseSmtpStrategies
 - uid: CG.Email.Strategies.Smtp.ServiceCollectionExtensions
   name: ServiceCollectionExtensions
   href: api/CG.Email.Strategies.Smtp.ServiceCollectionExtensions.html
