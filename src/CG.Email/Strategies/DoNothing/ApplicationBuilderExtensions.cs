@@ -28,7 +28,7 @@ namespace CG.Email.Strategies.DoNothing
         /// operation.</param>
         /// <returns>Ther value of the <paramref name="applicationBuilder"/>
         /// parameter, for chaining calls together.</returns>
-        public static IApplicationBuilder UseDoNothingEmailStrategies(
+        public static IApplicationBuilder UseDoNothingStrategies(
             this IApplicationBuilder applicationBuilder,
             IHostEnvironment hostEnvironment
             )

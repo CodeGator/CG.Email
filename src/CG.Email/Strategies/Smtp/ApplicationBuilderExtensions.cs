@@ -27,7 +27,7 @@ namespace CG.Email.Strategies.Smtp
         /// operation.</param>
         /// <returns>Ther value of the <paramref name="applicationBuilder"/>
         /// parameter, for chaining calls together.</returns>
-        public static IApplicationBuilder UseSmtpEmailStrategies(
+        public static IApplicationBuilder UseSmtpStrategies(
             this IApplicationBuilder applicationBuilder,
             IHostEnvironment hostEnvironment
             )
