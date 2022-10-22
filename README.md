@@ -27,3 +27,6 @@ We have a discussion board [HERE](https://github.com/CodeGator/CG.Email/discussi
 There is developer documentation [HERE](https://codegator.github.io/CG.Email/)
 
 We also blog about projects like this one on our website, [HERE](http://www.codegator.com)
+---
+#### Disclaimer
+This package and it's contents are experimental in nature. There is no official support. Use at your own risk.
